@@ -7,7 +7,8 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        { albums.map((album, albumIndex) => <Album album={album} key={albumIndex} />) }
+        <Album album={albums[0]} />
+        { /* albums.map((album, albumIndex) => <Album album={album} key={albumIndex} />) */ }
       </div>
     )
   }

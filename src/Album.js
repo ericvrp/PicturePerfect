@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
-import Picture from './Picture'
+import Thumbnail from './Thumbnail'
 
 class Album extends Component {
   render() {
     const {album} = this.props
     return (
       <div className='Album'>
-        <div>{ album.name }</div>
+        { /* <div>{ album.name }</div> */ }
         <div>
-          { album.pictures.map((picture, pictureIndex) => <Picture picture={picture} key={pictureIndex} />) }
-          </div>
-        <hr />
+          { album.pictures.map((picture, pictureIndex) => <Thumbnail picture={picture} key={pictureIndex} />) }
+        </div>
+        { /* <hr /> */ }
       </div>
     )
   }
