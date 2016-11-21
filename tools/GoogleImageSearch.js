@@ -9,14 +9,17 @@ const q = process.argv.splice(2).join(' ') // remove: <node app name> <script na
 
 // https://developers.google.com/custom-search/json-api/v1/reference/cse/list
 
-console.log('module.exports.' + q.replace(' ', '_') + ' = [')
+console.log('module.exports.' + q.replace(/ /g, '_') + ' = [')
 
 const nResultsPerBatch = 10
-const nBatches = 5
+
+const nBatches = 10
+const nBatchesDone = 0
+const startResult = 1 + nBatchesDone * nResultsPerBatch
 const maxResults = nBatches * nResultsPerBatch
+
 let nOutputedResults = 0
 for (let nResults = 0; nResults < maxResults; nResults += nResultsPerBatch) {
-
   const params = {
     key: settings.private.GOOGLE.API_KEY,
     cx: settings.private.GOOGLE.SEARCH_ENGINE_ID,

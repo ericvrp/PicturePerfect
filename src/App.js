@@ -1,21 +1,13 @@
 import React, { Component } from 'react'
-// import logo from './logo.svg'
 import './App.css'
+import Album from './Album'
+import albums from './all-albums'
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        { /*
-        <div className='App-header'>
-          <img src={logo} className='App-logo' alt='logo' />
-          <h2>Welcome to PicturePerfect</h2>
-        </div>
-        <p className='App-intro'>
-          Work in progress!
-        </p>
-        */ }
-        [PicturePerfect is Work in Progress]
+        { albums.map((album, albumIndex) => <Album album={album} key={albumIndex} />) }
       </div>
     )
   }
