@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import './App.css'
-import Album from './Album'
-import albums from './all-albums'
 
 class App extends Component {
   render() {
+    // albums.map((album, albumIndex) => <Album album={album} key={albumIndex} />)
+    // <Album album={albums[0]} />
     return (
       <div className='App'>
-        <Album album={albums[0]} />
-        { /* albums.map((album, albumIndex) => <Album album={album} key={albumIndex} />) */ }
+        {this.props.children}
       </div>
     )
   }

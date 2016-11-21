@@ -10,7 +10,8 @@
   "dependencies": {
     "googleapis": "^14.2.0",
     "react": "^15.4.0",
-    "react-dom": "^15.4.0"
+    "react-dom": "^15.4.0",
+    "react-router": "^3.0.0"
   },
   "scripts": {
     "now-start": "npm run build && list build/",
