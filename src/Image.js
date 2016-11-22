@@ -1,7 +1,15 @@
 import React, { Component } from 'react'
 import albums from './all-albums'
 
-class Image extends Component {
+const highresImage = new Image()
+
+export default class extends Component {
+  onImageLoaded = () => {
+    // console.log('onImageLoaded')
+    // console.log(this.refs.image)
+    this.refs.image.src = highresImage.src
+  }
+
   render() {
     document.body.style.overflow = 'hidden'
     window.onclick = this.props.router.goBack
@@ -9,12 +17,11 @@ class Image extends Component {
     const {albumNum = 0} = this.props.params
     const {pictureNum = 0} = this.props.params
     const {image, thumbnail} = albums[albumNum].pictures[pictureNum]
-
     const scale = 0.95 * Math.min(window.innerWidth / image.width, window.innerHeight / image.height)
 
-    // document.body.style.backgroundImage = "url(" + image.link + ")"
-
-    console.log(this.refs)
+    // load highres version so we can replace the thumbnail asap
+    highresImage.onload = this.onImageLoaded
+    highresImage.src = image.link
 
     return (
       <div>
@@ -24,5 +31,3 @@ class Image extends Component {
     )
   }
 }
-
-export default Image
