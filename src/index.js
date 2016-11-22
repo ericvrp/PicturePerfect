@@ -12,7 +12,7 @@ ReactDOM.render((
     <Route path='/' component={App}>
       <IndexRoute component={Album} />
       <Route path='album/:albumNum' component={Album} />
-      <Route path='image/:link' component={Image} />
+      <Route path='image/:albumNum/:pictureNum' component={Image} />
       <Route path='*' component={NotFound} />
     </Route>
   </Router>

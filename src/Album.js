@@ -4,10 +4,11 @@ import Thumbnail from './Thumbnail'
 
 class Album extends Component {
   render() {
-    const album = albums[parseInt(this.props.params.albumNum || 0, 10)]
+    const albumNum = parseInt(this.props.params.albumNum || 0, 10)
+    const album = albums[albumNum]
     return (
       <div className='Album'>
-        { album.pictures.map((picture, pictureIndex) => <Thumbnail picture={picture} key={pictureIndex} rowHeight={128} />) }
+        { album.pictures.map((picture, pictureNum) => <Thumbnail albumNum={albumNum} pictureNum={pictureNum} key={pictureNum} rowHeight={128} />) }
       </div>
     )
   }
