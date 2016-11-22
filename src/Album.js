@@ -7,7 +7,7 @@ class Album extends Component {
     const album = albums[parseInt(this.props.params.albumNum || 0, 10)]
     return (
       <div className='Album'>
-        { album.pictures.map((picture, pictureIndex) => <Thumbnail picture={picture} key={pictureIndex} />) }
+        { album.pictures.map((picture, pictureIndex) => <Thumbnail picture={picture} key={pictureIndex} rowHeight={128} />) }
       </div>
     )
   }

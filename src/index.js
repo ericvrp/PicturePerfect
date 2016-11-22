@@ -4,6 +4,7 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import App from './App'
 import Album from './Album'
 import Image from './Image'
+import NotFound from './NotFound'
 import './index.css'
 
 ReactDOM.render((
@@ -12,6 +13,7 @@ ReactDOM.render((
       <IndexRoute component={Album} />
       <Route path='album/:albumNum' component={Album} />
       <Route path='image/:link' component={Image} />
+      <Route path='*' component={NotFound} />
     </Route>
   </Router>
   ), document.getElementById('root'))
