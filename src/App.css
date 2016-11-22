@@ -1,3 +1,7 @@
 .Thumbnail {
   padding: 1px;
 }
+
+.Image {
+  height: 100vmin;
+}
