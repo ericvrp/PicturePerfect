@@ -15,7 +15,7 @@
 
 .Blurred {
   /* nice magic */
-  -webkit-filter: blur(50px) brightness(0.6);
+  -webkit-filter: blur(3px) brightness(0.5);
 }
 
 .Image {
