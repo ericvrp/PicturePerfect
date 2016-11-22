@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import albums from './all-albums'
 import Thumbnail from './Thumbnail'
-import AlbumsHeader from './AlbumsHeader'
+// import AlbumsHeader from './AlbumsHeader'
 
 class Album extends Component {
   render() {
