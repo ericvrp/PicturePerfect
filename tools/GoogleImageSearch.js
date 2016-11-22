@@ -9,7 +9,9 @@ const q = process.argv.splice(2).join(' ') // remove: <node app name> <script na
 
 // https://developers.google.com/custom-search/json-api/v1/reference/cse/list
 
-console.log('module.exports.' + q.replace(/ /g, '_') + ' = [')
+console.log('module.exports = {')
+console.log('name: \'' + q.replace(/ /g, '_') + '\',')
+console.log('pictures: [')
 
 const nResultsPerBatch = 10
 
@@ -49,7 +51,7 @@ for (let nResults = 0; nResults < maxResults; nResults += nResultsPerBatch) {
           }
         }
         console.log(result) // note: results might arrive out of order
-        nOutputedResults === maxResults && console.log(']')
+        nOutputedResults === maxResults && console.log(']}')
       })
     }
   }) // end of customsearch...
