@@ -2,9 +2,6 @@
   "name": "PicturePerfect",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "6.0.0"
-  },
   "devDependencies": {
     "list": "^0.8.2",
     "now": "^0.28.1",

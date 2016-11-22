@@ -5,4 +5,4 @@ import album04 from './brum'
 import album05 from './ome_willem'
 import album06 from './bassie_en_adriaan'
 
-export default [album01, album02, album03, album04, album04, album06]
+export default [album01, album02, album03, album04, album05, album06]
