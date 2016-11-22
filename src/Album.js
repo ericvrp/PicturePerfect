@@ -9,7 +9,7 @@ class Album extends Component {
     const album = albums[albumNum]
     return (
       <div>
-        <AlbumsHeader />
+        { /* <AlbumsHeader /> */ }
         <div className='Album'>
           { album.pictures.map((picture, pictureNum) => <Thumbnail albumNum={albumNum} pictureNum={pictureNum} key={pictureNum} rowHeight={128} />) }
         </div>

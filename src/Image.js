@@ -10,11 +10,14 @@ class Image extends Component {
     const {pictureNum = 0} = this.props.params
     const image = albums[albumNum].pictures[pictureNum].image
 
-    const scale = Math.min(window.innerWidth / image.width, window.innerHeight / image.height)
+    const scale = 0.95 * Math.min(window.innerWidth / image.width, window.innerHeight / image.height)
+
+    // document.body.style.backgroundImage = "url(" + image.link + ")"
 
     return (
-      <div className='Image'>
-        <img src={image.link} alt='' width={image.width * scale} height={image.height * scale} />
+      <div>
+        <img src={image.link} className='Blurred Image' alt='' width={window.innerWidth} height={window.innerHeight} />
+        <img src={image.link} className='Image' alt='' width={image.width * scale} height={image.height * scale} />
       </div>
     )
   }
