@@ -4,7 +4,7 @@ import Thumbnail from './Thumbnail'
 
 class Album extends Component {
   render() {
-    const albumNum = parseInt(this.props.params.albumNum || 0, 10)
+    const {albumNum = 0} = this.props.params
     const album = albums[albumNum]
     return (
       <div className='Album'>

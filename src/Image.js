@@ -6,8 +6,8 @@ class Image extends Component {
     document.body.style.overflow = 'hidden'
     window.onclick = this.props.router.goBack
 
-    const albumNum = parseInt(this.props.params.albumNum || 0, 10)
-    const pictureNum = parseInt(this.props.params.pictureNum || 0, 10)
+    const {albumNum = 0} = this.props.params
+    const {pictureNum = 0} = this.props.params
     const image = albums[albumNum].pictures[pictureNum].image
 
     const scale = Math.min(window.innerWidth / image.width, window.innerHeight / image.height)
