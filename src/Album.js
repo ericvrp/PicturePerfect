@@ -3,7 +3,7 @@ import albums from './all-albums'
 import ImageThumbnail from './ImageThumbnail'
 
 export default class extends Component {
-  rowHeight = 170
+  rowHeight = 172
 
   render() {
     const {albumNum = 0} = this.props.params
@@ -13,8 +13,8 @@ export default class extends Component {
         <div className='Album'>
           { album.pictures.map((picture, pictureNum) => <ImageThumbnail albumNum={albumNum} pictureNum={pictureNum} key={pictureNum} rowHeight={this.rowHeight} />) }
         </div>
-        
-        <a href='#' onClick={this.props.router.goBack}>Back to albums overview</a>
+
+        <a href='/'>Back to albums overview</a>
       </div>
     )
   }
