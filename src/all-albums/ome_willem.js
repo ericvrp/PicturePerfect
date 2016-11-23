@@ -3,6 +3,19 @@ module.exports = {
   pictures: [
     {
       image: {
+        link: 'http://67.media.tumblr.com/849bb567261b3aa1c463f8f21a28acd7/tumblr_inline_nia6r1DAe21s2n70p.jpg',
+        width: 500,
+        height: 281
+      },
+      thumbnail: {
+        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHTqJar3n-rWyzxmbCgGfY9BuXP7m51ej6u0uPIq1VgBsXN-i1hqJMAO4',
+        width: 130,
+        height: 73
+      }
+    }
+    ,
+    {
+      image: {
         link: 'http://www.joepiedepoepie.nl/uploads/userfiles/images/OW%20persfoto%20arm.png',
         width: 179,
         height: 250
@@ -804,19 +817,6 @@ module.exports = {
         link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiCblByJoimTcCYJJvR1LB_7OF5IrY2lLYYnqbEvFD_DQvTxCGpP0G_-8',
         width: 129,
         height: 97
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://67.media.tumblr.com/849bb567261b3aa1c463f8f21a28acd7/tumblr_inline_nia6r1DAe21s2n70p.jpg',
-        width: 500,
-        height: 281
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHTqJar3n-rWyzxmbCgGfY9BuXP7m51ej6u0uPIq1VgBsXN-i1hqJMAO4',
-        width: 130,
-        height: 73
       }
     }
     ,

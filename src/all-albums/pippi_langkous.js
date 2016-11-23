@@ -3,6 +3,19 @@ module.exports = {
   pictures: [
     {
       image: {
+        link: 'https://i.ytimg.com/vi/tDu05xw7CGE/hqdefault.jpg',
+        width: 480,
+        height: 360
+      },
+      thumbnail: {
+        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSLzQsb9t-2zzg_fcEW3ajo1d4c3QNNdFUAYBcuPC6zC1-Uf1-dLsTEcSs',
+        width: 129,
+        height: 97
+      }
+    }
+    ,
+    {
+      image: {
         link: 'http://www.show.nl/wp-content/uploads/sites/2/2016/03/pippi4-e1459246924602.jpg',
         width: 588,
         height: 331
@@ -180,19 +193,6 @@ module.exports = {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRH5gqRJ5xbMTTLfU1NRBnwrLNnkqLAYfjidwBGwE1j_ojOQhgkKlmSSl9S',
         width: 143,
         height: 72
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://i.ytimg.com/vi/tDu05xw7CGE/hqdefault.jpg',
-        width: 480,
-        height: 360
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSLzQsb9t-2zzg_fcEW3ajo1d4c3QNNdFUAYBcuPC6zC1-Uf1-dLsTEcSs',
-        width: 129,
-        height: 97
       }
     }
     ,

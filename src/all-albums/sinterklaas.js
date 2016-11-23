@@ -1,17 +1,31 @@
 module.exports = {
   name: 'sinterklaas',
-  pictures: [{
-    image: {
-      link: 'http://www.bijzonderfeestje.nl/plaatjes/sinterklaas.png',
-      width: 595,
-      height: 842
-    },
-    thumbnail: {
-      link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTrWDlJmaoPa7_NsZ5_flw2CJpJOj-pvACJ_xZSysSrOBLSeIoxoBo8qHd',
-      width: 102,
-      height: 145
+  pictures: [
+    {
+      image: {
+        link: 'http://izabeautrottier.files.wordpress.com/2010/12/sinterklaas.jpg',
+        width: 801,
+        height: 533
+      },
+      thumbnail: {
+        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDbQkqruTdegHkijZ8QdmmlX9c3-rKtXt8qUkmSyY0yijEBwDYdncM_i5X',
+        width: 143,
+        height: 95
+      }
     }
-  }
+    ,
+    {
+      image: {
+        link: 'http://www.bijzonderfeestje.nl/plaatjes/sinterklaas.png',
+        width: 595,
+        height: 842
+      },
+      thumbnail: {
+        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTrWDlJmaoPa7_NsZ5_flw2CJpJOj-pvACJ_xZSysSrOBLSeIoxoBo8qHd',
+        width: 102,
+        height: 145
+      }
+    }
     ,
     {
       image: {
@@ -192,19 +206,6 @@ module.exports = {
         link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCKMbIMJwXdmaMS2e5kyCn-FSlx_I6zZQucZWcMPBFJ8gnv-wo4KG68w',
         width: 116,
         height: 116
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://izabeautrottier.files.wordpress.com/2010/12/sinterklaas.jpg',
-        width: 801,
-        height: 533
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDbQkqruTdegHkijZ8QdmmlX9c3-rKtXt8qUkmSyY0yijEBwDYdncM_i5X',
-        width: 143,
-        height: 95
       }
     }
     ,
