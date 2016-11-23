@@ -13,6 +13,8 @@ export default class extends Component {
         <div className='Album'>
           { album.pictures.map((picture, pictureNum) => <ImageThumbnail albumNum={albumNum} pictureNum={pictureNum} key={pictureNum} rowHeight={this.rowHeight} />) }
         </div>
+        
+        <a href='#' onClick={this.props.router.goBack}>Back to albums overview</a>
       </div>
     )
   }
