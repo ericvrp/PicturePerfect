@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import App from './App'
+import AlbumsOverview from './AlbumsOverview'
 import Album from './Album'
 import Image from './Image'
 import NotFound from './NotFound'
@@ -10,7 +11,7 @@ import './index.css'
 ReactDOM.render((
   <Router history={browserHistory}>
     <Route path='/' component={App}>
-      <IndexRoute component={Album} />
+      <IndexRoute component={AlbumsOverview} />
       <Route path='album/:albumNum' component={Album} />
       <Route path='image/:albumNum/:pictureNum' component={Image} />
       <Route path='*' component={NotFound} />
