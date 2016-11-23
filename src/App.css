@@ -1,9 +1,15 @@
-.AlbumsHeader {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*.AlbumsHeader {
   position: fixed;
   height: 150px;
   width: 100%;
   background-color: white;
-}
+}*/
 
 .AlbumThumbnail {
   margin: 20px;
@@ -46,4 +52,12 @@
 
   /* rounder corners */
   border-radius: 10px;
+}
+
+.TheBigRedButton {
+  width: 140px;
+  height: 140px;
+  position:fixed;
+  top:0%;
+  right:0%;
 }

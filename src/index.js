@@ -6,7 +6,6 @@ import AlbumsOverview from './AlbumsOverview'
 import Album from './Album'
 import Image from './Image'
 import NotFound from './NotFound'
-import './index.css'
 
 ReactDOM.render((
   <Router history={browserHistory}>
