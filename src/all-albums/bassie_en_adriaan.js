@@ -3,19 +3,6 @@ module.exports = {
   pictures: [
     {
       image: {
-        link: 'https://yt3.ggpht.com/-cgBibhdshnk/AAAAAAAAAAI/AAAAAAAAAAA/uaxHhggchWA/s900-c-k-no-mo-rj-c0xffffff/photo.jpg',
-        width: 900,
-        height: 900
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQNPBSNJzMcKH8HdldQd6bbctchZGw6e_Yl9rTQP3eKhgWWXTQ8SVKAm0C1',
-        width: 146,
-        height: 146
-      }
-    }
-    ,
-    {
-      image: {
         link: 'https://steefschrijft.files.wordpress.com/2015/10/986frr.jpg',
         width: 1563,
         height: 1600

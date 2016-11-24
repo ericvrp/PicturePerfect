@@ -1,5 +1,5 @@
 const NumberOfColumns = (album, startIndex) => {
-  const n = Math.min(3, album.pictures.length - startIndex)
+  const n = Math.min(4, album.pictures.length - startIndex)
   // console.log(startIndex, album.pictures.length, n)
   return n
 }
