@@ -16,19 +16,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.show.nl/wp-content/uploads/sites/2/2016/03/pippi4-e1459246924602.jpg',
-        width: 588,
-        height: 331
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR9uoKal3a15vISP1fMjTDcytHLirETCcGK4TxUSBBhZo3Hg5o9Qo8UExjl',
-        width: 135,
-        height: 76
-      }
-    }
-    ,
-    {
-      image: {
         link: 'https://www.waarkeekjijvroegernaar.nl/screenshots/albums/films/Pippi_Langkous/Pippi%20Langkous_004.jpg',
         width: 250,
         height: 170

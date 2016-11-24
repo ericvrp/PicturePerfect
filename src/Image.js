@@ -11,9 +11,6 @@ export default class extends Component {
   }
 
   render() {
-    document.body.style.overflow = 'hidden'
-    window.onclick = this.props.router.goBack
-
     const {albumNum = 0} = this.props.params
     const {pictureNum = 0} = this.props.params
     const {image, thumbnail} = albums[albumNum].pictures[pictureNum]
@@ -24,11 +21,9 @@ export default class extends Component {
     highresImage.src = image.link
 
     return (
-      <div draggable='true' onDragEnd={this.props.router.goBack}  >
-        <a href='#'>
-          <img src={thumbnail.link} className='Blurred Image' alt='' width={window.innerWidth} height={window.innerHeight} />
-          <img src={thumbnail.link} className='Image' alt='' ref='image' width={image.width * scale} height={image.height * scale} />
-        </a>
+      <div onClick={this.props.router.goBack} onTouchEnd={this.props.router.goBack}>
+        <img src={thumbnail.link} className='Blurred Image' alt='' width={window.innerWidth} height={window.innerHeight} />
+        <img src={thumbnail.link} className='Image' alt='' ref='image' width={image.width * scale} height={image.height * scale} />
       </div>
     )
   }
