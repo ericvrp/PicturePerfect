@@ -250,19 +250,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://img.geocaching.com/cache/large/d93b43b1-6b7f-469f-b829-14b13932a28e.jpg',
-        width: 563,
-        height: 370
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS6sIfEkLNI7oG_PRLqYlcQKWLyOQIR-VXPiV1QlpjiPv9bqnQynt8bYrux',
-        width: 133,
-        height: 87
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://lichtophethart.nl/wp-content/uploads/2016/02/Pippi-langkous-300x212.jpg',
         width: 300,
         height: 212
