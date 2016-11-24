@@ -21,7 +21,8 @@ body {
   box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
 
   /* rounder corners */
-  border-radius: 10px;}
+  border-radius: 10px;
+}
 
 .Album {
   /*padding-top: 150px;*/

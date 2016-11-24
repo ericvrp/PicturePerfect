@@ -9,11 +9,14 @@ export default class extends Component {
     const album = albums[albumNum]
     const rows = []
     const numberOfColumns = Layout.NumberOfColumns(album, startIndex)
+    const rowHeight = Layout.RowHeight(album, startIndex, numberOfColumns)
+
+    // rows.push(<div>)
     for (let columnIndex = 0; columnIndex < numberOfColumns; columnIndex++) {
-      let pictureIndex = startIndex + columnIndex
-      const rowHeight = Layout.RowHeight(album, startIndex, numberOfColumns)
+      const pictureIndex = startIndex + columnIndex
       rows.push(<ImageThumbnail albumNum={albumNum} pictureNum={pictureIndex} key={pictureIndex} rowHeight={rowHeight} />)
     }
+    rows.push(<br key={100000 + startIndex}/>) // XXX I tried to put a div around the above loop but I couldn't get it to work
 
     return [startIndex + numberOfColumns, rows]
   }

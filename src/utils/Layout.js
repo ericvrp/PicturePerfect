@@ -4,8 +4,20 @@ const NumberOfColumns = (album, startIndex) => {
   return n
 }
 
-const RowHeight = (album, startIndex, numberOfColumns, desiredWidth = window.innerWidth * 0.7) => {
-  return 172
+const RowHeight = (album, startIndex, numberOfColumns, desiredWidth = window.innerWidth * 0.99) => {
+  let totalRatio = 0
+
+  for (let columnIndex = 0; columnIndex < numberOfColumns; columnIndex++) {
+    const pictureIndex = startIndex + columnIndex
+    const padding = 1 // see .ImageThumbnail in App.css
+    const ratio = (album.pictures[pictureIndex].image.width + 2 * padding) / album.pictures[pictureIndex].image.height
+    // console.log(pictureIndex, 'ratio', ratio)
+    totalRatio += ratio
+  }
+  // console.log(startIndex, 'total', totalRatio)
+  // console.log()
+
+  return desiredWidth / totalRatio
 }
 
 
