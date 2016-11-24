@@ -10,10 +10,8 @@ export default class extends Component {
     const scale = albumHeight / image.height
     return (
       <Link href={'/album/' + albumNum}>
-        <ProgressiveImage className='AlbumThumbnail' src={image.link} lowresSrc={thumbnail.link} width={image.width * scale} height={albumHeight} />
-{ /*
-        <img src={picture.image.link} className='AlbumThumbnail' alt='' height={albumHeight} />
-*/ }
+        <ProgressiveImage className='AlbumThumbnail' src={image.link} lowresSrc={thumbnail.link} width={image.width * scale} height={image.height * scale} />
+        { /*<img src={image.link} className='AlbumThumbnail' alt='' width={image.width * scale} height={image.height * scale} />*/ }
       </Link>
     )
   }
