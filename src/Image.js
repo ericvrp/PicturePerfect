@@ -25,8 +25,10 @@ export default class extends Component {
 
     return (
       <div draggable='true' onDragEnd={this.props.router.goBack}  >
-        <img src={thumbnail.link} className='Blurred Image' alt='' width={window.innerWidth} height={window.innerHeight} />
-        <img src={thumbnail.link} className='Image' alt='' ref='image' width={image.width * scale} height={image.height * scale} />
+        <a href='#'>
+          <img src={thumbnail.link} className='Blurred Image' alt='' width={window.innerWidth} height={window.innerHeight} />
+          <img src={thumbnail.link} className='Image' alt='' ref='image' width={image.width * scale} height={image.height * scale} />
+        </a>
       </div>
     )
   }
