@@ -29,8 +29,8 @@ export default class extends Component {
   }
 
   render() {
-    const {lowresSrc, src, width, height, alt='', className = 'ProgressiveImage'} = this.props
-    console.log(this.props)
+    const {src, lowresSrc, lowresFilter='blur(3px)', width, height, alt='', className = 'ProgressiveImage'} = this.props
+    // console.log(this.props)
     return (
       <img className={className}
       src={this.state.hasImageLoaded ? src : lowresSrc}
@@ -38,7 +38,7 @@ export default class extends Component {
       width={width}
       height={height}
       style={{
-        filter: this.state.hasImageLoaded ? null : 'blur(3px)'
+        filter: this.state.hasImageLoaded ? null : lowresFilter
       }}
       />
     )
