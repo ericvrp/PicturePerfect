@@ -3,6 +3,19 @@ module.exports = {
   pictures: [
     {
       image: {
+        link: 'http://images0.tcdn.nl/prive/article25200735.ece/BINARY/u/bassie.JPG',
+        width: 1500,
+        height: 999
+      },
+      thumbnail: {
+        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTlcDZ2vOMyzNsr_kv_1uuMpkQh1WafOKwpEOIARzsvFx0iKviCv8sGZlA',
+        width: 150,
+        height: 100
+      }
+    }
+    ,
+    {
+      image: {
         link: 'https://steefschrijft.files.wordpress.com/2015/10/986frr.jpg',
         width: 1563,
         height: 1600
@@ -63,19 +76,6 @@ module.exports = {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTF_BycuQF9Eg35omGte0x5Z1JtOFAm90BWBI51ZvrMO2LL_YQbWoQUjEDQ',
         width: 137,
         height: 104
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://images0.tcdn.nl/prive/article25200735.ece/BINARY/u/bassie.JPG',
-        width: 1500,
-        height: 999
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTlcDZ2vOMyzNsr_kv_1uuMpkQh1WafOKwpEOIARzsvFx0iKviCv8sGZlA',
-        width: 150,
-        height: 100
       }
     }
     ,
@@ -206,19 +206,6 @@ module.exports = {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5OwS4c1_P2wzDJfzhOuyc5gnVCH2e1xnK8vRxj0jtWzpL0jWpwkxgg88',
         width: 146,
         height: 82
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://images0.tcdn.nl/prive/article25200735.ece/BINARY/original/bassie.JPG',
-        width: 512,
-        height: 341
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSDFq1IbFwe4clvS6u3ZqET7s-QOMmGr9PFKbSTeew-1qiGwP2hJPgnp8ll',
-        width: 131,
-        height: 87
       }
     }
     ,
