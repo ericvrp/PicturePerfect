@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Layout from './utils/Layout'
-import AlbumThumbnail from './AlbumThumbnail'
+// import AlbumThumbnail from './AlbumThumbnail'
 import albums from './all-albums'
 
 export default class extends Component {
