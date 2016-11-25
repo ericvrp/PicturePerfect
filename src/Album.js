@@ -8,7 +8,7 @@ export default class extends Component {
   renderRow = (albumNum, startIndex) => {
     const album = albums[albumNum]
     const columns = []
-    const numberOfColumns = Layout.NumberOfColumns(album, startIndex)
+    const numberOfColumns = Layout.NumberOfColumns(album, startIndex, 4)
     const rowHeight = Layout.RowHeight(album, startIndex, numberOfColumns)
 
     // columns.push(<div>)
@@ -16,7 +16,7 @@ export default class extends Component {
       const pictureIndex = startIndex + columnIndex
       columns.push(<ImageThumbnail albumNum={albumNum} pictureNum={pictureIndex} key={pictureIndex} rowHeight={rowHeight} />)
     }
-    columns.push(<br key={100000 + startIndex}/>) // XXX I tried to put a div around the above loop but I couldn't get it to work
+    columns.push(<br key={100000 + startIndex} />) // XXX I tried to put a div around the above loop but I couldn't get it to work
 
     return [startIndex + numberOfColumns, columns]
   }

@@ -8,8 +8,8 @@ import album07 from './swiebertje'
 import album08 from './pipo_de_clown'
 import album09 from './kabouter_plop'
 import album10 from './samson_en_gert'
-import album11 from './stoomboot'
+// import album11 from './stoomboot'
 import album12 from './piet_piraat'
 import album13 from './brum'
 
-export default [album01, album02, album03, album04, album05, album06, album07, album08, album09, album10, album11, album12, album13]
+export default [album01, album02, album03, album04, album05, album06, album07, album08, album09, album10, /*album11,*/ album12, album13]

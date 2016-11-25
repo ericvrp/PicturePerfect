@@ -16,19 +16,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://circus.blog.nl/files/2016/01/pipo-de-clown.png',
-        width: 200,
-        height: 302
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb_Wj30JkEakgDOYNK2itfi8jlwy3BsD4F64HSJEhKOoaXAO2eqvf5Kgc',
-        width: 77,
-        height: 116
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://fast.mediamatic.nl/f/tqgr/image/390/119131-521-500.jpg',
         width: 521,
         height: 500
