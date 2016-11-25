@@ -8,7 +8,7 @@ const NumberOfColumns = (album, startIndex, preferredNumColumns) => {
   return n
 }
 
-const RowHeight = (album, startIndex, numberOfColumns, padding = 1, desiredWidth = window.innerWidth) => {
+const RowHeight = (album, startIndex, numberOfColumns, margin = 3, desiredWidth = window.innerWidth) => {
   let totalRatio = 0
 
   for (let columnIndex = 0; columnIndex < numberOfColumns; columnIndex++) {
@@ -20,7 +20,7 @@ const RowHeight = (album, startIndex, numberOfColumns, padding = 1, desiredWidth
   // console.log(startIndex, 'total', totalRatio)
   // console.log()
 
-  return (desiredWidth - numberOfColumns * 2 * padding) / totalRatio
+  return (desiredWidth - numberOfColumns * 2 * margin) / totalRatio
 }
 
 
@@ -30,8 +30,8 @@ const range = n => {
   return a
 }
 
-const ImageRow = ({album, startIndex, numberOfColumns, padding}) => {
-  const rowHeight = RowHeight(album, startIndex, numberOfColumns, padding)
+const ImageRow = ({album, startIndex, numberOfColumns, margin}) => {
+  const rowHeight = RowHeight(album, startIndex, numberOfColumns, margin)
 
   return (
     <div className='ImageTableRow'>
@@ -41,10 +41,10 @@ const ImageRow = ({album, startIndex, numberOfColumns, padding}) => {
 }
 
 
-const ImageTable = ({album, preferredNumColumns = 4, padding = 1}) => { // note: stateless component
+const ImageTable = ({album, preferredNumColumns, margin}) => { // note: stateless component
   const rows = []
   for (let startIndex = 0; startIndex < album.pictures.length;) {
-    const numberOfColumns = NumberOfColumns(album, startIndex, preferredNumColumns, padding)
+    const numberOfColumns = NumberOfColumns(album, startIndex, preferredNumColumns, margin)
     rows.push({
       startIndex,
       numberOfColumns
@@ -54,7 +54,7 @@ const ImageTable = ({album, preferredNumColumns = 4, padding = 1}) => { // note:
 
   return (
     <div className='ImageTable'>
-      {rows.map(row => <ImageRow album={album} startIndex={row.startIndex} key={row.startIndex} numberOfColumns={row.numberOfColumns} padding={padding} />)}
+      {rows.map(row => <ImageRow album={album} startIndex={row.startIndex} key={row.startIndex} numberOfColumns={row.numberOfColumns} margin={margin} />)}
     </div>
   )
 }

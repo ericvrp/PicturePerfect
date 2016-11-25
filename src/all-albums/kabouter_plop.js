@@ -159,19 +159,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.itb-entertainment.com/sites/itb.dev.itixity.com/files/old/20090526112827_Kabouter_Plop.JPG',
-        width: 600,
-        height: 600
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGA0S576leA5gamkFUzq-w0qWwnNCrs40KbV1Zouyp8bZoZopRPQcl6LZTuQ',
-        width: 135,
-        height: 135
-      }
-    }
-    ,
-    {
-      image: {
         link: 'https://twilight-entertainment.nl/uploads/artiesten/Kabouter%20Plop%20boeken.jpg',
         width: 257,
         height: 255

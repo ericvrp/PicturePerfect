@@ -6,7 +6,7 @@ body {
 
 
 .AlbumThumbnail {
-  margin: 20px;
+  margin: 6px;
 
   /* same as .Picture .... can we inherit? */
   /* box shadow */
@@ -18,12 +18,18 @@ body {
   border-radius: 10px;
 }
 
-.Album {
-  /*padding-top: 150px;*/
-}
 
 .ImageThumbnail {
-  padding: 1px;
+  margin: 3px;
+
+  /* same as .Picture .... can we inherit? */
+  /* box shadow */
+  -webkit-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
+  box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
+
+  /* rounder corners */
+  border-radius: 10px;
 }
 
 .Blurred {

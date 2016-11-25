@@ -11,7 +11,7 @@ export default class extends Component {
 
     return (
       <div className='AlbumsOverview'>
-        <Layout.ImageTable album={overviewAlbum} preferredNumColumns={3} padding={20} />
+        <Layout.ImageTable album={overviewAlbum} preferredNumColumns={3} margin={6} />
       </div>
     )
   }
