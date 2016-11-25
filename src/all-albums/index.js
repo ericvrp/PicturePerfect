@@ -11,5 +11,9 @@ import album10 from './samson_en_gert'
 // import album11 from './stoomboot'
 import album12 from './piet_piraat'
 import album13 from './brum'
+import album14 from './dora'
+import album15 from './teletubbies'
+import album16 from './pakjesboot'
+import album17 from './zandkasteel_aan_zee'
 
-export default [album01, album02, album03, album04, album05, album06, album07, album08, album09, album10, /*album11,*/ album12, album13]
+export default [album01, album02, album03, album04, album05, album06, album07, album08, album09, album10, /*album11,*/ album12, album13, album14, album15, album16, album17]

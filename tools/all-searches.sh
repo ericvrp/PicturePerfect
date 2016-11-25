@@ -15,3 +15,7 @@
 # node tools/GoogleImageSearch.js stoomboot > src/all-albums/stoomboot.js
 # node tools/GoogleImageSearch.js piet piraat > src/all-albums/piet_piraat.js
 # node tools/GoogleImageSearch.js zwarte piet > src/all-albums/zwarte_piet.js
+# node tools/GoogleImageSearch.js dora > src/all-albums/dora.js
+# node tools/GoogleImageSearch.js teletubbies > src/all-albums/teletubbies.js
+# node tools/GoogleImageSearch.js pakjesboot > src/all-albums/pakjesboot.js
+# node tools/GoogleImageSearch.js zandkasteel aan zee > src/all-albums/zandkasteel_aan_zee.js
