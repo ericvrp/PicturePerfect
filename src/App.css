@@ -50,8 +50,8 @@ body {
 }
 
 .TheBigRedButton {
-  width: 160px;
-  height: 160px;
+  width: 12em;
+  height: 12em;
   position: fixed;
   top: 0;
   left: 0;
