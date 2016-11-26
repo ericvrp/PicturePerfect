@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  /*font-family: sans-serif;*/
+  font-family: sans-serif;
 }
 
 
@@ -23,15 +23,17 @@ body {
 
   /* same as .Picture .... can we inherit? */
   /* box shadow */
-  /*-webkit-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);*/
-  box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
 
   /* rounder corners */
   border-radius: 10px;
 }
 .AlbumThumbnail:active {
-  box-shadow: 11px 10px 68px -1px rgba(255,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
+  box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
 }
 
 
@@ -40,15 +42,17 @@ body {
 
   /* same as .Picture .... can we inherit? */
   /* box shadow */
-  /*-webkit-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);*/
-  box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
 
   /* rounder corners */
   border-radius: 10px;
 }
 .ImageThumbnail:active {
-  box-shadow: 11px 10px 68px -1px rgba(255,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
+  box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
 }
 
 
@@ -62,15 +66,17 @@ body {
   transform: translate(-50%,-50%);
 
   /* box shadow */
-  /*-webkit-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);*/
-  box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
 
   /* rounder corners */
   border-radius: 10px;
 }
 .Image:active {
-  box-shadow: 11px 10px 68px -1px rgba(255,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
+  box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
 }
 
 
@@ -80,12 +86,6 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-
-  /* same as .Picture .... can we inherit? */
-  /* box shadow */
-  /*-webkit-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
-  box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);*/
 }
 .TheBigRedButton:active {
   top: 3px;
