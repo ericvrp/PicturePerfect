@@ -22,10 +22,10 @@ export default class extends Component {
   }
 
   renderAllRows = (albumNum) => {
-    const album = albums[albumNum]
+    const nPictures = 20 // albums[albumNum].length;
     let allRows = []
     let columns
-    for (let pictureIndex = 0; pictureIndex < album.pictures.length;) {
+    for (let pictureIndex = 0; pictureIndex < nPictures;) {
       [pictureIndex, columns] = this.renderRow(albumNum, pictureIndex)
       allRows = allRows.concat(columns)
     }

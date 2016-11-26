@@ -33,9 +33,9 @@ body {
 .AlbumThumbnail:active {
   -webkit-filter: brightness(0.5);
 
-  -webkit-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
-  -moz-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
-  box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(0,255,0,0.6);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(0,255,0,0.6);
+  box-shadow: 10px 10px 30px 10px rgba(0,255,0,0.6);
 }
 
 
@@ -54,21 +54,23 @@ body {
 .ImageThumbnail:active {
   -webkit-filter: brightness(0.5);
 
-  -webkit-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
-  -moz-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
-  box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(0,255,0,0.6);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(0,255,0,0.6);
+  box-shadow: 10px 10px 30px 10px rgba(0,255,0,0.6);
 }
 
 
-.Image {
-  /* center horizontal and vertical */
+.CenterBothDirections {
   position:absolute;
   top:50%;
   left:50%;
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
+}
 
+
+.Image {
   /* box shadow */
   -webkit-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
   -moz-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
@@ -80,9 +82,9 @@ body {
 .Image:active {
   -webkit-filter: brightness(0.5);
 
-  -webkit-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
-  -moz-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
-  box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(0,255,0,0.6);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(0,255,0,0.6);
+  box-shadow: 10px 10px 30px 10px rgba(0,255,0,0.6);
 }
 
 
