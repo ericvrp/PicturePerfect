@@ -35,8 +35,8 @@ export default class extends Component {
       <img className={className}
       src={this.state.hasImageLoaded ? src : lowresSrc}
       alt={alt}
-      width={width}
-      height={height}
+      width={parseInt(width, 10)}
+      height={parseInt(height, 10)}
       style={{
         filter: this.state.hasImageLoaded ? null : lowresFilter
       }}

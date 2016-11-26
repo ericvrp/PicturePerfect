@@ -23,7 +23,7 @@ export default class extends Component {
 
     return (
       <div onClick={this.props.router.goBack} onTouchEnd={this.props.router.goBack} width={image.width} height={image.height}>
-        <img src={thumbnail.link} className='Blurred' alt='' width={window.innerWidth} height={window.innerHeight} />
+        <img src={thumbnail.link} className='Dimmed Blurred' alt='' width={window.innerWidth} height={window.innerHeight} />
         <ProgressiveImage src={image.link} lowresSrc={thumbnail.link} className='Image' width={image.width * scale} height={image.height * scale} />
       </div>
     )

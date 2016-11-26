@@ -1,7 +1,20 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  border: 0;
+  /*font-family: sans-serif;*/
+}
+
+
+.Blurred {
+  /* nice magic */
+  -webkit-filter: blur(3px);
+}
+
+
+.Dimmed {
+  /* nice magic */
+  -webkit-filter: brightness(0.5);
 }
 
 
@@ -10,12 +23,15 @@ body {
 
   /* same as .Picture .... can we inherit? */
   /* box shadow */
-  -webkit-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
+  /*-webkit-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);*/
   box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
 
   /* rounder corners */
   border-radius: 10px;
+}
+.AlbumThumbnail:active {
+  box-shadow: 11px 10px 68px -1px rgba(255,0,0,0.75);
 }
 
 
@@ -24,40 +40,43 @@ body {
 
   /* same as .Picture .... can we inherit? */
   /* box shadow */
-  -webkit-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
+  /*-webkit-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);*/
   box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
 
   /* rounder corners */
   border-radius: 10px;
 }
-
-.Blurred {
-  /* nice magic */
-  -webkit-filter: blur(3px) brightness(0.5);
+.ImageThumbnail:active {
+  box-shadow: 11px 10px 68px -1px rgba(255,0,0,0.75);
 }
+
 
 .Image {
   /* center horizontal and vertical */
   position:absolute;
   top:50%;
   left:50%;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translate(-50%,-50%);
+  /*-ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);*/
   transform: translate(-50%,-50%);
 
   /* box shadow */
-  -webkit-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
+  /*-webkit-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);*/
   box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
 
   /* rounder corners */
   border-radius: 10px;
 }
+.Image:active {
+  box-shadow: 11px 10px 68px -1px rgba(255,0,0,0.75);
+}
+
 
 .TheBigRedButton {
-  width: 12em;
-  height: 12em;
+  width: 17vw;
+  height: 17vw;
   position: fixed;
   top: 0;
   left: 0;
@@ -67,4 +86,8 @@ body {
   /*-webkit-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);
   box-shadow: 11px 10px 68px -1px rgba(0,0,0,0.75);*/
+}
+.TheBigRedButton:active {
+  top: 3px;
+  left: 3px;
 }

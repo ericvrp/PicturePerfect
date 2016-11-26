@@ -20,7 +20,7 @@ const RowHeight = (album, startIndex, numberOfColumns, margin = 3, desiredWidth 
   // console.log(startIndex, 'total', totalRatio)
   // console.log()
 
-  return (desiredWidth - numberOfColumns * 2 * margin) / totalRatio
+  return parseInt((desiredWidth - numberOfColumns * 2 * margin) / totalRatio, 10)
 }
 
 
