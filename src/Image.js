@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
+// import { Link, browserHistory } from 'react-router'
 import ProgressiveImage from './utils/ProgressiveImage'
 import albums from './all-albums'
-
-// const hiresImage = new Image()
 
 export default class extends Component {
   render() {
@@ -12,9 +11,9 @@ export default class extends Component {
     const scale = 0.95 * Math.min(window.innerWidth / image.width, window.innerHeight / image.height)
 
     return (
-      <div onClick={this.props.router.goBack} onTouchEnd={this.props.router.goBack} width={image.width} height={image.height}>
+      <div>
         <img src={thumbnail.link} className='Dimmed Blurred' alt='' width={window.innerWidth} height={window.innerHeight} />
-        <ProgressiveImage src={image.link} lowresSrc={thumbnail.link} className='Image' width={image.width * scale} height={image.height * scale} />
+        <ProgressiveImage onClick={this.props.router.goBack} src={image.link} lowresSrc={thumbnail.link} className='Image' width={image.width * scale} height={image.height * scale} />
       </div>
     )
   }

@@ -23,17 +23,19 @@ body {
 
   /* same as .Picture .... can we inherit? */
   /* box shadow */
-  -webkit-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
+  box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
 
   /* rounder corners */
   border-radius: 10px;
 }
 .AlbumThumbnail:active {
-  -webkit-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
-  -moz-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
-  box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
+  -webkit-filter: brightness(0.5);
+
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
+  box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
 }
 
 
@@ -42,17 +44,19 @@ body {
 
   /* same as .Picture .... can we inherit? */
   /* box shadow */
-  -webkit-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
+  box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
 
   /* rounder corners */
   border-radius: 10px;
 }
 .ImageThumbnail:active {
-  -webkit-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
-  -moz-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
-  box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
+  -webkit-filter: brightness(0.5);
+
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
+  box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
 }
 
 
@@ -66,17 +70,19 @@ body {
   transform: translate(-50%,-50%);
 
   /* box shadow */
-  -webkit-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
+  box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
 
   /* rounder corners */
   border-radius: 10px;
 }
 .Image:active {
-  -webkit-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
-  -moz-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
-  box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.75);
+  -webkit-filter: brightness(0.5);
+
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
+  -moz-box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
+  box-shadow: 10px 10px 30px 10px rgba(255,0,0,0.6);
 }
 
 
@@ -88,6 +94,8 @@ body {
   left: 0;
 }
 .TheBigRedButton:active {
+  -webkit-filter: brightness(0.5);
+
   top: 3px;
   left: 3px;
 }
