@@ -22,7 +22,8 @@ export default class extends Component {
   }
 
   renderAllRows = (albumNum) => {
-    const nPictures = 20 // albums[albumNum].length;
+    const nPictures = albums[albumNum].pictures.length
+    // console.log(albums[albumNum].name, nPictures)
     let allRows = []
     let columns
     for (let pictureIndex = 0; pictureIndex < nPictures;) {
@@ -37,8 +38,8 @@ export default class extends Component {
     const {albumNum = 0} = this.props.params
     return (
       <div className='Album'>
-        <TheBigRedButton />
         { this.renderAllRows(albumNum) }
+        <TheBigRedButton />
       </div>
     )
   }
