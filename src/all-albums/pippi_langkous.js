@@ -68,19 +68,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.tantetee.nl/wp-content/uploads/2014/08/SAM_4644_1.jpg',
-        width: 1000,
-        height: 750
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScAIns9gG1QvQ0IFo4ANXKzsr0x6MmNOkiEtfYxJsiWRUjQ6fpPugg_bKx',
-        width: 149,
-        height: 112
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.kinderfeestje-idee.nl/wp-content/uploads/2016/04/pippi-langkous-kinderfeestje.jpg',
         width: 480,
         height: 346
@@ -89,19 +76,6 @@ module.exports = {
         link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK6PYdr1HV8vFlIM5acgFaquht5oAzWdUDzku4Xeo05g7JvAAINBU8CRYg',
         width: 129,
         height: 93
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://s-media-cache-ak0.pinimg.com/236x/8a/c6/dc/8ac6dccef61c40a3b5211a42f85a6ea5.jpg',
-        width: 168,
-        height: 300
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSI45cY3h47MP7APfJSvS0ndAwKuq2x1LprFoTzjYDD65Q56Wa6udVVxg',
-        width: 65,
-        height: 116
       }
     }
     ,
@@ -146,19 +120,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://stadsschouwburgamsterdam.nl/assets/Uploads/_resampled/SetSize1240855-Pippi-Langkous-2.jpg',
-        width: 1240,
-        height: 855
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbFUWjfHZWE9jauj61qiHmB5UxytKgmJkeSuX6EHQ54Pqnr7QP4qQqA4i_',
-        width: 150,
-        height: 103
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://studio100.com/tv/wp-content/uploads/Pippi_Langstrumpf21_300x300_acf_cropped1-320x320.jpg',
         width: 320,
         height: 320
@@ -193,19 +154,6 @@ module.exports = {
         link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTBXu-qhXDsje42rX5bSGzqpuaY2jy0ijvR4DSeIlpbu_vom8KCKwtsRsHT',
         width: 135,
         height: 68
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://static.zoom.nl/BCE8F233BBC62BE21362D4373407AB59-pippi-langkous.jpg',
-        width: 780,
-        height: 520
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRouX-3X6mvUjH_AkhiIILMkfTttI6fnAN7qEDCcf8NnWT2WUYoYMutphA',
-        width: 142,
-        height: 95
       }
     }
     ,
@@ -258,19 +206,6 @@ module.exports = {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTazp16R3tScvlfJPC4iwVFBCg4T-O2jwHu81nyHbUEjPRU6QG-6noLs80',
         width: 116,
         height: 82
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://media.libelle.nl/m/5lc86zlimlj5.png',
-        width: 790,
-        height: 474
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIPRpKWu1Qqt-CVQZnELdXMDXOZ17lw2bhGV5ug2D0dAnmxkZZG5aNsRxD',
-        width: 143,
-        height: 86
       }
     }
     ,
@@ -523,45 +458,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://static.superleuk.nl/afbeeldingen/0x0/Schermafbeelding%202016_05_13%20om%2018.33.52_1463157348.png',
-        width: 618,
-        height: 370
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ53OoA-82tuRl70fQJK26D7nvscFr8zhsxzrIk05I8fmaY7drgPCvPvBCK',
-        width: 136,
-        height: 81
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://i.ytimg.com/vi/UOqEhSStD3o/maxresdefault.jpg',
-        width: 1280,
-        height: 720
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTIQpLqodkpfBHE9DORStxRLj7ABwGANIDuStGLB76p-yU-GmfGC_L1iRk',
-        width: 150,
-        height: 84
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://footo.nl/userphotos/2012/1001/3PwbSGcc.jpg',
-        width: 990,
-        height: 660
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR8IuYUEyeyfPSKmAkBzqTNQJUe1L7I76-pvL2RRLG_YKeM4M7SmG8qinM',
-        width: 149,
-        height: 99
-      }
-    }
-    ,
-    {
-      image: {
         link: 'https://www.theatersneek.nl/wp-content/uploads/2014/05/Pippi-Langkous-de-musical-1-c-Leo-van-Velzen.jpg',
         width: 3500,
         height: 2333
@@ -718,19 +614,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://eenvandaag.nl/uploads/item/paulamajoor.png',
-        width: 746,
-        height: 419
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSALYTucLaTH4AHTVB2gwTJt1M4IAAyBgKvwM8lz0E2pm8QxzlOFLElH4g',
-        width: 141,
-        height: 79
-      }
-    }
-    ,
-    {
-      image: {
         link: 'https://www.theatersneek.nl/wp-content/uploads/2014/05/Pippi-Langkous-de-musical-3-c-Leo-van-Velzen.jpg',
         width: 3500,
         height: 2333
@@ -856,19 +739,6 @@ module.exports = {
         link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT4aL5_HMGmBz4w9udQdcuiQSR--xVMuciu52woHn3tWUVM523m6yQuKw',
         width: 84,
         height: 119
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://www.nimdb.nl/photos/PippiLangkous.jpg',
-        width: 240,
-        height: 240
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFuEN6uPUq8JdsbikroHR-QZh1kWtKAzzcqnw9shZ9_ONiSKeb-3KJoyI',
-        width: 110,
-        height: 110
       }
     }
     ,
@@ -1012,19 +882,6 @@ module.exports = {
         link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2gTlb9X3hAhLp5SIWkwKNsiVnp2fP-KgbB_LXly6mCwETj1vU_iGdZg',
         width: 92,
         height: 125
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://www.ukko.nl/img/kleuren/full/kleurplaat-pippi-langkous-0003.gif',
-        width: 941,
-        height: 667
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF_7e7NytXU3eKjFpy0eBMc8fQ56IJZ7oe2wMNEBkP0Vnj-w35bH8DSOtU',
-        width: 148,
-        height: 105
       }
     }
     ,
@@ -1212,19 +1069,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://s.s-bol.com/imgbase0/imagebase/large/FC/6/0/1/1/9200000030601106.jpg',
-        width: 500,
-        height: 333
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQvSVGaT9qSkVs4hf2bCal4TqeoX7RbVG2wSjksQmVpCuZjico8Dw-gdT6A',
-        width: 130,
-        height: 87
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.kindervertier.nl/gg_36.gif',
         width: 169,
         height: 311
@@ -1259,19 +1103,6 @@ module.exports = {
         link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQsItjMoueSRrMCY-1NrWWZMPN6onS56RAk-cPstN8n8Av2c2pS_soc_uM',
         width: 150,
         height: 79
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://i.ytimg.com/vi/FiMzkFsriUw/maxresdefault.jpg',
-        width: 1920,
-        height: 1080
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT56m6fO5-_Ajeq72s6WXoXLHfzJLmg4OE8HuhEjADLI-qB5aJgUvR4Vzw',
-        width: 150,
-        height: 84
       }
     }
   ]

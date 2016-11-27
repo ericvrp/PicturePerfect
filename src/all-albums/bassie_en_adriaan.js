@@ -302,19 +302,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://cdn.xgn.nl/articles/970/n/nieuwe-hype-bassie-en-adriaan-karaoke-59000-1.jpg',
-        width: 970,
-        height: 545
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZYxAXHyXg63oMySAfYNWbfydbR9J3f2Z85mpaiuRUm22Dh0RCzTcX_6s',
-        width: 149,
-        height: 84
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.adriaan-homepage.nl/index_welkom/foto_fan/020_gr.jpg',
         width: 800,
         height: 598
@@ -796,19 +783,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://s-media-cache-ak0.pinimg.com/564x/ce/41/47/ce414785f22c0f739daadd1e9c23fa7c.jpg',
-        width: 442,
-        height: 552
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQhN8Aq15uo5lRxDK0XWdvVCQrp2_KWfwgWJckBkaEM7YOu-pxou_OI70uP',
-        width: 106,
-        height: 133
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://tvblik.nl/afbeelding/programma-groot/bassie-adriaan.jpg',
         width: 200,
         height: 150
@@ -973,19 +947,6 @@ module.exports = {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSCo8tMJZZGvW1jf-roo_knSETcNWqPuY5wyIObEW7Ifj59g9FHQy5ogdK8',
         width: 146,
         height: 146
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://media.nu.nl/m/q9ixqalajo8p_wd640.jpg/bassie-en-adriaan-acteur-paul-van-gorcum-en-vrouw-willen-samen-sterven.jpg',
-        width: 640,
-        height: 360
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSSa68KxOHG5llfJh5-qnbxs95cy1Od7kLt5KZ-ivkH5s-XZqea_kf87w',
-        width: 137,
-        height: 77
       }
     }
     ,

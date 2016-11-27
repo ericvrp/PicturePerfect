@@ -380,32 +380,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.themotortradeclub.com/news/wp-content/uploads/2014/10/google-brum.jpg',
-        width: 768,
-        height: 276
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu-aAeFxtmDPrig78YhrM3wPK9l3Ykz850N8Zj3xN23skOC8v1NAbCuFY',
-        width: 142,
-        height: 51
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://media-cdn.tripadvisor.com/media/photo-s/08/ab/fc/bc/hello-brum.jpg',
-        width: 549,
-        height: 450
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRv0m1qSZ8Nwk8Z3VXCkVbZb8K4E6Fh4VOF5EuPTJnPpC1gm1AzAPfBl9w',
-        width: 133,
-        height: 109
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.justwebshop.nl/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/r/brum-stopwatchdief-_dvd_.jpg',
         width: 430,
         height: 430
@@ -427,19 +401,6 @@ module.exports = {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTT7LXCXypy4l_kmhz3zRZ9qu9Wiu8nAwM3MSxJdOOYgmVXxHi7d7vNqg',
         width: 129,
         height: 97
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://pbs.twimg.com/profile_images/660236254987100160/7zqbFL26.jpg',
-        width: 400,
-        height: 351
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTs6c6MV-n_G71tpgNeIixSAzpxRvSqsj89MzkEXfatt76ibrE5u7K_IBY',
-        width: 124,
-        height: 109
       }
     }
     ,
@@ -601,19 +562,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.dekorevaars.nl/lego/wp-content/uploads/2015/11/Brum-Kiddy-Ride-Lego-Wedo-3.jpg',
-        width: 800,
-        height: 600
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRQ4eqE6E8s1mMoYcR5VE629m2-tI-Xp9RV8AKJjnJU_prXG64X-8A9PhDa',
-        width: 143,
-        height: 107
-      }
-    }
-    ,
-    {
-      image: {
         link: 'https://media-cdn.tripadvisor.com/media/photo-s/0d/2d/4e/f6/brum.jpg',
         width: 374,
         height: 450
@@ -739,19 +687,6 @@ module.exports = {
         link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR91O-xdZoHg8cLNTYGMRUKeUpGmyvSJnLI65aRUsddlYchosLUvB-J5yY',
         width: 129,
         height: 97
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://1.bp.blogspot.com/-gttibW3x-rg/VE4gHCuGjVI/AAAAAAAAAbk/9SpNl-RAKxc/s1600/brum.jpg',
-        width: 478,
-        height: 199
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQLwezdwV5f2kMTz2vJd3-orNlKyEPiVmFvGhuCaIActlwitYje7U-KPuo',
-        width: 129,
-        height: 54
       }
     }
     ,
@@ -1064,19 +999,6 @@ module.exports = {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcToT0CKIzwB_qpPSLF8rwwVp45wjdx8v1NKTBxHUdKFMwfs9aVP9i4fozI',
         width: 129,
         height: 97
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://i157.photobucket.com/albums/t53/baldie0522/doin-brum.gif',
-        width: 295,
-        height: 320
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQw1zGuHvl_q3R15JducvlDCOCezTvpctXhMH80YIkI98sfnhRJTJbTwA',
-        width: 109,
-        height: 118
       }
     }
     ,

@@ -42,32 +42,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://i.ytimg.com/vi/O6DnQE3C54I/hqdefault.jpg',
-        width: 480,
-        height: 360
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtnSX3mb03jUVr1tgMPbXle6AqMrK7MBve1IF4qoN1A6pg3KzELJylSIA',
-        width: 129,
-        height: 97
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://s-media-cache-ak0.pinimg.com/originals/66/7b/95/667b955202358b0340b7bf2e288a9096.jpg',
-        width: 800,
-        height: 800
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcShcjLjPaIyFiW8pjh0-F2Q4XGZkU6FISprcyrClWPtyjVzD2nJOrjTtDlK',
-        width: 143,
-        height: 143
-      }
-    }
-    ,
-    {
-      image: {
         link: 'https://i.ytimg.com/vi/of7pmgBKY7Y/maxresdefault.jpg',
         width: 1280,
         height: 720
@@ -100,19 +74,6 @@ module.exports = {
       },
       thumbnail: {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTbg3i9D8g4vkEfePYGjgIq9ZQaSKtanXDcq54w5YxpqgmrsAwzt50PKk-X',
-        width: 150,
-        height: 84
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://www.kids-tube.nl/wp-content/uploads/2015/04/kabouter-plop-medley1.jpg',
-        width: 1920,
-        height: 1080
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR97oP78hcfbVO4XyD-8YxL1N7bGcZv7j-QNQJTcmIFKrehTjfWRcsiFWs',
         width: 150,
         height: 84
       }
@@ -380,19 +341,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://humortv.s3-eu-central-1.amazonaws.com/wp-content/uploads/original/kabouterplop-780x444.jpg',
-        width: 780,
-        height: 444
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcST5dLB5ik0qHAhnK0QvnLFFadH44D-KqeO1_TN4c6bycYF73DkrIoT1PQ',
-        width: 142,
-        height: 81
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://kingofwallpapers.com/plop/plop-002.jpg',
         width: 600,
         height: 450
@@ -432,19 +380,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://yt3.ggpht.com/--OyPBdXiuh0/AAAAAAAAAAI/AAAAAAAAAAA/AXu-gIzqZ4I/s900-c-k-no-mo-rj-c0xffffff/photo.jpg',
-        width: 900,
-        height: 900
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQHdPwm6H5UmBAmkLQqrO8Z0rB90_7VxEIgmF1KX_NOKUXwQ7F9TFVLb5Keww',
-        width: 146,
-        height: 146
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.happy-party.nl/images/tekstvelden/kabouter%20plop%20feestartikelen.png',
         width: 500,
         height: 195
@@ -453,19 +388,6 @@ module.exports = {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSBq5ieg9hK6teEECXvQjjxbRcQWVFxPvMmunDjHyCgXsyNPW2I65sIx7B_',
         width: 130,
         height: 51
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://s.s-bol.com/imgbase0/imagebase3/large/FC/7/1/5/5/1004004012055517.jpg',
-        width: 403,
-        height: 840
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ45k4AplgkD_OdR_BdejE9ih7gIaCU-VMTrQM-iWGdkBvSqvXUb49hEmD5',
-        width: 70,
-        height: 145
       }
     }
     ,
@@ -523,19 +445,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://stichtingfok.nl/files/2014/03/P1080362.jpg',
-        width: 4320,
-        height: 3240
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQGYGse52CJAATeUqiEkcGa_C7Y3zTmcr9EQJzmV6saa5UcOnDsN7ksj8KJ',
-        width: 150,
-        height: 113
-      }
-    }
-    ,
-    {
-      image: {
         link: 'https://i.ytimg.com/vi/HTYM9z_k_lU/maxresdefault.jpg',
         width: 1022,
         height: 598
@@ -544,19 +453,6 @@ module.exports = {
         link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpP_awra0pNGoxPiMsWZLuzlOwj_ZVvtVDoOvgHtM_6Ih2-6696VtP8Czj',
         width: 150,
         height: 88
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://www.leukvoorkids.nl/media/kabouter-plop-cat-200x200-c-default.jpg',
-        width: 200,
-        height: 200
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYY1ymXYCWUaWNTfRYhbOZmlJ0gWYryrCU3VoYDQGDY0Ha0ti8SZIu4sI',
-        width: 104,
-        height: 104
       }
     }
     ,
@@ -674,19 +570,6 @@ module.exports = {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_XlknZQjgLz3GMtmAxI6h6MFNLowB8mnzh_eGAOqhHK-NbevCFpFFtkVCwQ',
         width: 150,
         height: 150
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://bin.snmmd.nl/m/w1ewkv9pfvu5_wd1280.jpg/trijntje-komt-in-veredeld-kabouter-plop-pak.jpg',
-        width: 1280,
-        height: 720
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSCg2dGYo4HWVrLMPqh69urw77vKyjRuKyn7NE8mzRDXscmbT69Ee7lYCc',
-        width: 150,
-        height: 84
       }
     }
     ,
@@ -822,19 +705,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://images.lobbes.nl/images/items/2799133a.jpg',
-        width: 1250,
-        height: 1250
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRuXjStb4ZCdxVDbqJ3AmQXwPEyXVe6fmKv9y8SSH5mWdBhi3l5f_V5cn3Egw',
-        width: 150,
-        height: 150
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.minipret.nl/afbeeldingen/groepen/319.png',
         width: 500,
         height: 375
@@ -856,19 +726,6 @@ module.exports = {
         link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEcVM-GuIug6HXUvWEnq8wZNGW8r1Xn77xK72qrfNg9ybe8ZMgUptj9JI8',
         width: 122,
         height: 150
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://static.dekbedovertrek.nl/data/cms_uploads/webshop/webshop/feed/articles/54800_55000/kabouter-plop-dekbedovertrek-54841.jpg',
-        width: 432,
-        height: 432
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRFJs46u9Qrd9St4F6HaLOhCPB3BNWoF4lBHvt3zGqkNtRf_gRqrDPFDYQ',
-        width: 126,
-        height: 126
       }
     }
     ,
@@ -908,32 +765,6 @@ module.exports = {
         link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDSMy5YfsGeTz8pc8wzdZDI08CtgORM1V_rUbIte-9ggBt8VzWwc336C0W',
         width: 130,
         height: 130
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://www.fietsstoeltjeplein.nl/.uc/i15/c868e90103fa2d4300f7e02502073c0b009a03cf010701c29204920480.jpg/kabouter-plop-muts.jpg',
-        width: 1170,
-        height: 1170
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTisgQHjPtED-5hJS60vrFz-X6_u4EqIQJnFyUKDiWI4khWq012up05WTF1',
-        width: 150,
-        height: 150
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://i.ytimg.com/vi/tOVzCd9nRmg/maxresdefault.jpg',
-        width: 1440,
-        height: 1080
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRVn91kzG1Xhrue8bTcv0BKZFQuN1dTzwjsZxt-D96ds9qCdyjC13mqAEY',
-        width: 150,
-        height: 113
       }
     }
     ,
@@ -1017,19 +848,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://i.ytimg.com/vi/v1achuHHNsE/maxresdefault.jpg',
-        width: 1920,
-        height: 1080
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHdWLcs1Ltw25Bclb0Jz7CTQl9gXE0lfOv6zdU5L2DeG5yMPwCMFVpWP0',
-        width: 150,
-        height: 84
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.kindertube.nl/kabouter-plop-liedjes/images/uRaL5SSI9Y4.jpg',
         width: 480,
         height: 360
@@ -1056,19 +874,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://s.s-bol.com/imgbase0/imagebase3/large/FC/2/0/2/8/1004004013468202.jpg',
-        width: 550,
-        height: 550
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQelsbnUO8PU9H5DLMnjYHiqpukP3Xn-e7SXm5fDxVBUiINSd8VavW4okt-hg',
-        width: 133,
-        height: 133
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.leukvoorkids.nl/media/wallpaper-kabouter-plop-in-de-stad.jpg',
         width: 1280,
         height: 1024
@@ -1077,19 +882,6 @@ module.exports = {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQCVOlATyg1rmTUbqxx8_uWgo5M1mdLrWqcN5evSrpsofMGdCkPpLN_B6w',
         width: 150,
         height: 120
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://www.annasanimaties.com/files/annasplaatjes/kabouter-plop/kabouter-plop-432.bmp',
-        width: 175,
-        height: 259
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8o-ptMINaEo--wZswuJvszBGW3C-Jc8rEMd6cH27l_szHhGN110M9YQ',
-        width: 76,
-        height: 112
       }
     }
     ,
@@ -1173,19 +965,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.animatiemagazijn.nl/kabouter_plop/animatiemagazijn.php?thumb=kabouter_plop/plop18.gif',
-        width: 350,
-        height: 163
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8sbwCzrbzPiFcdYGd_vlbm4BdlGMICHpWg1pjG2Wru_KpvU1iFoIMHw',
-        width: 120,
-        height: 56
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://direct-ns.rhap.com/imageserver/v2/albums/Alb.219923392/images/600x600.jpg',
         width: 600,
         height: 600
@@ -1194,58 +973,6 @@ module.exports = {
         link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZJRP4e1iFpwCdZz4P1NIbKhDU-eI4c_a_35o-L11U1Rc4d_Kjngu02FEJQ',
         width: 135,
         height: 135
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://static.webshopapp.com/shops/000217/files/004960621/muts-kabouter-plop-uitgeknipt.jpg',
-        width: 555,
-        height: 459
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSOzwGPrxyEp5MmP_WrHt8TUZkkZ3b5VpsEAHQC3f3NknACqcvCJPQ2JQY',
-        width: 133,
-        height: 110
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://i.ytimg.com/vi/gMCVb-n6O74/hqdefault.jpg',
-        width: 480,
-        height: 360
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlqN_uEjBc7vFCPiH5E53QXYqln5C32DOckzgNabmyAK1A-ySB2awopmU',
-        width: 129,
-        height: 97
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://www.happy-party.nl/images/kabouter%20plop%20meeneemzakjes.jpg',
-        width: 350,
-        height: 350
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSyTlHidAiiqs3kyxZEgOt2GBkAf4z6MiRMbzYT3pGvA6y1qTt2cgwESYg',
-        width: 120,
-        height: 120
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://fast.mediamatic.nl/f/tqgr/image/737/218654-300-202-scale.jpg',
-        width: 300,
-        height: 202
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRJMsDLwzz66txvvFqlDNo0asN8e2XWpuOWWrlzunWZJnEazUfsi8cLLT0',
-        width: 116,
-        height: 78
       }
     }
   ]

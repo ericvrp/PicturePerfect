@@ -599,19 +599,7 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'https://i.ytimg.com/vi/cgqf2aXlXJE/maxresdefault.jpg',
-        width: 1280,
-        height: 720
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ4yY9W67G-z0GOESjmbgSg1WMQoVso0eJjA4oqIGAuOYoB9SCBX32G9SbF',
-        width: 150,
-        height: 84
-      }
-    }
-    ,
+
     {
       image: {
         link: 'http://showcase.thebluebus.nl/SoundApril2007/Pipo4.jpg',

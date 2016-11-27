@@ -68,19 +68,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.indenmangel.nl/wp-content/uploads/2015/11/ZPgeenracisme1.jpg',
-        width: 500,
-        height: 500
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSC3ESiruKRN9jmQzMKlX31aWzUyPPHZNzclx8qR9DlZURfKNz4OQFhEwAkJA',
-        width: 130,
-        height: 130
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.animatieplaatjes.nl/sinterklaas/zwarte-piet-3.gif',
         width: 301,
         height: 272
@@ -206,19 +193,6 @@ module.exports = {
         link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7rKdwOvsMmLd5t9lQeIOcri77HfJYU9-5DbAY7J0r6v3ZdjWDH4m5ZNk',
         width: 99,
         height: 149
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://verbalslaps.com/wp-content/uploads/2015/12/honderden-bij-protest-zwarte-piet-in-amsterdam.jpg',
-        width: 640,
-        height: 360
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSdYFGdPX1syteOWqRhmsVD8c4vV0IbYLEpuYuoNYWqwiYNtn1wUwHYN2Zc',
-        width: 137,
-        height: 77
       }
     }
     ,
@@ -791,19 +765,6 @@ module.exports = {
         link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQe9--ir7miwiGolkK4F1saCkkE3nsZ6X1umYvBCv5FjKh8qwDUmrcl3GYe',
         width: 136,
         height: 136
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://pbs.twimg.com/profile_images/652850237011267584/hJqFSO_x.jpg',
-        width: 512,
-        height: 512
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQN3sZGhmGN2sCNckScosHRJyklzpQAtXV4oIh01B3HYeZDcMJI37qGvQ4Y',
-        width: 131,
-        height: 131
       }
     }
     ,

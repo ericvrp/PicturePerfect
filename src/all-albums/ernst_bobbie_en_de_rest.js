@@ -1287,18 +1287,5 @@ module.exports = {
         height: 133
       }
     }
-    ,
-    {
-      image: {
-        link: 'https://i.ytimg.com/vi/3b0mYUoIRoY/hqdefault.jpg',
-        width: 480,
-        height: 360
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTSSQ_KR2Sh1Zz9HN6pEPOU3eW2sOxN5go3C5dTZLahpfkb2gV8JHiaaAsE',
-        width: 129,
-        height: 97
-      }
-    }
   ]
 }

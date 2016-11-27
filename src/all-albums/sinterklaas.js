@@ -16,19 +16,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.bijzonderfeestje.nl/plaatjes/sinterklaas.png',
-        width: 595,
-        height: 842
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTrWDlJmaoPa7_NsZ5_flw2CJpJOj-pvACJ_xZSysSrOBLSeIoxoBo8qHd',
-        width: 102,
-        height: 145
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.enjoythemomentrituals.com/wp-content/uploads/2014/12/Blog-History-of-Sinterklaas-.jpg',
         width: 1105,
         height: 636
@@ -250,19 +237,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.sinterklaas.nl/wp-content/uploads/2016/07/sinterklaas-pinguin.jpg',
-        width: 598,
-        height: 563
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRtkOp0tCqRjXUX8vWxBRyiiSAmF7QUl-aljY27RTuswiWLWdtPVgV6Elw',
-        width: 135,
-        height: 127
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.sintintilburg.nl/wp-content/uploads/2014/05/sint-in-tilburg-420x383.png',
         width: 420,
         height: 383
@@ -375,32 +349,6 @@ module.exports = {
         link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSvU59KZzUx5V8MAZErJgWZ8-D3N7MMKX5sLomo2kPq2scnllmHeF9f510',
         width: 116,
         height: 100
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://www.sinterklaashudsonvalley.com/wp-content/uploads/Sinterklaas-Rhinebeck-Logo1.jpg',
-        width: 600,
-        height: 156
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3F_3EsV-a3WmlyZX-CEuAWYT6u-24vAQR7XeCa4jy07Ylg4GIp0skFA',
-        width: 135,
-        height: 35
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://blog.goeuro.nl/wp-content/uploads/2015/11/Wijze-Wegwijs-en-Sinterklaas-in-Spanje-1.jpg',
-        width: 2000,
-        height: 1480
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwqusuhkUtV3emnG5sIsrZaPVx8gipcR9lcuGnOlYkQtztJcY8YjfBpI4i',
-        width: 150,
-        height: 111
       }
     }
     ,
@@ -523,19 +471,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.aloysius-boskamp.nl/Portals/647/sinterklaas.jpg',
-        width: 1493,
-        height: 1500
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEeK8r-WyCBPoH4Rl3mkHBYIAIf_6Ea-ZBturXPF1wYWYNbaGUJTEugPy9Hw',
-        width: 149,
-        height: 150
-      }
-    }
-    ,
-    {
-      image: {
         link: 'https://static1.squarespace.com/static/55b8aa7be4b0c41d4690fa8a/t/5662df08e4b0c4c43293cde4/1449320200687/The+only+true+Sinterklaas',
         width: 400,
         height: 266
@@ -596,19 +531,6 @@ module.exports = {
         link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhgwYTu-IISuMORZBv3XdSjAM3ktaUDBD6I7wL5yRjSZLOMLKPY0gixQ',
         width: 80,
         height: 118
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://static.tagthelove.com/cms/93_2aa34d2ab1ce8162_1024box.jpg',
-        width: 1004,
-        height: 468
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeBvy36s1611QrhxrJDglFXiQ8EBoGrrpA0fCcVD3D2z2P6Op6f_slg_Y',
-        width: 149,
-        height: 69
       }
     }
     ,
@@ -1186,19 +1108,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://i.ytimg.com/vi/ulB3KMv41tc/maxresdefault.jpg',
-        width: 1280,
-        height: 720
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSb07YAGlugOM42chUz3HK4pGArFBs__h6erRDQz2-buHrzd2hJdSR1kWWh',
-        width: 150,
-        height: 84
-      }
-    }
-    ,
-    {
-      image: {
         link: 'https://s-media-cache-ak0.pinimg.com/originals/85/27/2e/85272e56db5ca545eeedf557bf2f127c.jpg',
         width: 774,
         height: 795
@@ -1246,32 +1155,6 @@ module.exports = {
         link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc8Zlyk_HnvUPMuNVJMf-sZMMYHAu-gP48XX5heYHOyTFF5ksJMX-ihw',
         width: 100,
         height: 124
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://images.lobbes.nl/images/header/sinterklaas.jpg',
-        width: 388,
-        height: 220
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTtMzTWR63HaNWghd5J70ZYICS9V0Q7LoUVQAMgPUjVVCKktWZtXBS5low',
-        width: 123,
-        height: 70
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://www.sinterklaasfan.nl/knutselen/sinterklaas-masker.jpg',
-        width: 660,
-        height: 981
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8JmSAwfRG6zMPtIUxWm_SwW-LDhNM-N9JLQA2ERCu-IAEDAcvo9YkL40',
-        width: 100,
-        height: 149
       }
     }
     ,

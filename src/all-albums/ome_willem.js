@@ -380,19 +380,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.l1.nl/sites/default/files/imagenodes/ome_willem_edwin_rutten.jpg',
-        width: 709,
-        height: 396
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSNgpsYTWyWLoI6leqahPwE10XwUR6QvczttH6jUkhSDZhtK5uSBUn2UaaG',
-        width: 140,
-        height: 78
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.justwebshop.nl/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/4/2495294.jpg',
         width: 1532,
         height: 2161
@@ -505,19 +492,6 @@ module.exports = {
         link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQBVG-xSNSuSQ_0VFMf7r8tcjhJMMFN3ozO_kc5OENoiOvctrwC34sn8yhIZQ',
         width: 128,
         height: 130
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://www.tubantia.nl/polopoly_fs/1.5823798.1457977841!/httpImage/image.jpg_gen/derivatives/landscape_800_600/image-5823798.jpg',
-        width: 800,
-        height: 600
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSJohREJFno2ZZokGBHlfXA4MBE21CWRwubQp6tXq4dEAnAtE8wIq0mlHUc',
-        width: 143,
-        height: 107
       }
     }
     ,
@@ -1082,19 +1056,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://images0.tcdn.nl/binnenland/article23509766.ece/BINARY/u/Edwin+Rutten+Ome+Willem.JPG',
-        width: 1500,
-        height: 936
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQGeN9CJFYc7jksrzcSFRaPQdIf8Wu0OO9B-J8Ow-Q7EshbjaZpqWEUx9c',
-        width: 150,
-        height: 94
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.omewillem.nl/afbeeldingen/wedstrijd/KopievanOmeWillem01-06-05.jpg',
         width: 520,
         height: 348
@@ -1160,19 +1121,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.cafeomewillem.nl/wp-content/themes/omewillem/images/interieur-ome-willem3.jpg',
-        width: 1500,
-        height: 568
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQDojByxjawp-Zo3I7iR4Li8sJZ9oPFz2pB_yZuiHr6__TqeqQPmGb8dT-Z',
-        width: 150,
-        height: 57
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.seriesvanvroeger.nl/images/screenshots/liblj_willem.jpg',
         width: 470,
         height: 343
@@ -1186,19 +1134,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.petersmulders.nl/500px/Oktober%202000/Ome%20Willem%20Vos%20231000100.jpg',
-        width: 500,
-        height: 333
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpgwscNYGjGDcaq8naDdkDjgwZvDAK0IAbiGAwUoIS-EPhKoMLIPmodoKq',
-        width: 130,
-        height: 87
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://projectkoorvoq.nl/media/ode_aan_willem_wilmink_2013/05-ome_willem.jpg',
         width: 600,
         height: 400
@@ -1207,19 +1142,6 @@ module.exports = {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSnfcbYarh0udVk7bMFAgJq6OYtzjKdL5TijRd8mAN3dHTQ1DUv2FRWqk4',
         width: 135,
         height: 90
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'http://dekupkes.nl/wp-content/uploads/2014/01/foto_nw_18.jpg',
-        width: 400,
-        height: 417
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSL76glK_S_dFlx3ilmIgy4tRWigNA6CRMoRlrd36JHPX-QhMALI3zxcg',
-        width: 120,
-        height: 125
       }
     }
     ,
