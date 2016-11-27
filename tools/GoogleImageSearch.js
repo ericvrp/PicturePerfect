@@ -15,7 +15,7 @@ console.log('pictures: [')
 
 const nResultsPerBatch = 10
 
-const nBatches = 10
+const nBatches = 1 // XXX change this one
 const nBatchesDone = 0
 const startResult = 1 + nBatchesDone * nResultsPerBatch
 const maxResults = nBatches * nResultsPerBatch
@@ -27,6 +27,7 @@ for (let nResults = 0; nResults < maxResults; nResults += nResultsPerBatch) {
     cx: settings.private.GOOGLE.SEARCH_ENGINE_ID,
     safe: 'high',
     searchType: 'image',
+    imgSize: 'xlarge',
     start: 1 + nResults, // note: 1 = first search result
     num: nResultsPerBatch,
     q: q,
