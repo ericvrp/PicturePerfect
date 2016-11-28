@@ -4,11 +4,11 @@ import ProgressiveImage from './utils/ProgressiveImage'
 
 export default class extends Component {
   render() {
-    const {album, albumNum, albumHeight} = this.props
-    const {image, thumbnail} = album.pictures[albumNum]
-    const scale = albumHeight / image.height
+    const {album, index, rowHeight} = this.props
+    const {image, thumbnail} = album.pictures[index]
+    const scale = rowHeight / image.height
     return (
-      <ProgressiveImage onClick={browserHistory.push.bind(this, '/album/' + albumNum)} className='AlbumThumbnail' src={image.link} lowresSrc={thumbnail.link} width={image.width * scale} height={image.height * scale} />
+      <ProgressiveImage onClick={browserHistory.push.bind(this, '/album/' + index)} className='AlbumThumbnail' src={image.link} lowresSrc={thumbnail.link} width={image.width * scale} height={image.height * scale} />
     )
   }
 }
