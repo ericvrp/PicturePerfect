@@ -1,17 +1,16 @@
 import React, { Component } from 'react'
 import Layout from './utils/Layout'
-// import AlbumThumbnail from './AlbumThumbnail'
-import albums from './all-albums'
+import AlbumThumbnail from './AlbumThumbnail'
+// import { combinedAlbum as overviewAlbum } from './all-albums'
+import { overviewAlbum } from './all-albums'
+
+// console.log('overviewAlbum.length', overviewAlbum.pictures.length)
 
 export default class extends Component {
   render() {
-    const overviewAlbum = {
-      pictures: albums.reduce((a, b) => a.concat(b.pictures[0]), [])
-    }
-
     return (
       <div className='AlbumsOverview'>
-        <Layout.ImageTable album={overviewAlbum} preferredNumColumns={3} margin={6} />
+        <Layout.ImageTable thumbnailComponent={AlbumThumbnail} album={overviewAlbum} preferredNumColumns={3} margin={6} />
       </div>
     )
   }

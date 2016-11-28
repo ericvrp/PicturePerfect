@@ -1,6 +1,4 @@
 import React from 'react'
-import AlbumThumbnail from '../AlbumThumbnail'
-
 
 const NumberOfColumns = (album, startIndex, preferredNumColumns) => {
   const n = Math.min(preferredNumColumns, album.pictures.length - startIndex)
@@ -30,18 +28,18 @@ const range = n => {
   return a
 }
 
-const ImageRow = ({album, startIndex, numberOfColumns, margin}) => {
+const ImageRow = ({album, startIndex, numberOfColumns, margin, thumbnailComponent}) => {
   const rowHeight = RowHeight(album, startIndex, numberOfColumns, margin)
-
+  const Thumbnail = thumbnailComponent // because React needs a starting capital for JSX tags
   return (
     <div className='ImageTableRow'>
-      {range(numberOfColumns).map((_, albumNum) => <AlbumThumbnail albumNum={startIndex + albumNum} key={startIndex + albumNum} albumHeight={rowHeight} />)}
+      {range(numberOfColumns).map((_, albumNum) => <Thumbnail album={album} albumNum={startIndex + albumNum} key={startIndex + albumNum} albumHeight={rowHeight} />)}
     </div>
   )
 }
 
 
-const ImageTable = ({album, preferredNumColumns, margin}) => { // note: stateless component
+const ImageTable = ({album, preferredNumColumns, margin, thumbnailComponent}) => { // note: stateless component
   const rows = []
   for (let startIndex = 0; startIndex < album.pictures.length;) {
     const numberOfColumns = NumberOfColumns(album, startIndex, preferredNumColumns, margin)
@@ -54,7 +52,7 @@ const ImageTable = ({album, preferredNumColumns, margin}) => { // note: stateles
 
   return (
     <div className='ImageTable'>
-      {rows.map(row => <ImageRow album={album} startIndex={row.startIndex} key={row.startIndex} numberOfColumns={row.numberOfColumns} margin={margin} />)}
+      {rows.map(row => <ImageRow album={album} startIndex={row.startIndex} key={row.startIndex} numberOfColumns={row.numberOfColumns} margin={margin} thumbnailComponent={thumbnailComponent} />)}
     </div>
   )
 }

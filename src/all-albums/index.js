@@ -15,4 +15,21 @@ import album14 from './teletubbies'
 import album15 from './zandkasteel_aan_zee'
 import album16 from './pipo_de_clown'
 
-export default [album01, album02, album03, album04, album05, album06, album07, album08, album09, album10, album11, album12, album13, album14, album15, album16]
+const albums = [album01, album02, album03, album04, album05, album06, album07, album08, album09, album10, album11, album12, album13, album14, album15, album16]
+export default albums
+
+let pictures = albums.reduce((a, b) => a.concat(b.pictures[0]), [])
+const overviewAlbum = {
+  pictures
+}
+export { overviewAlbum }
+
+// note outcomment the following after react-virtualized is working
+pictures = []
+for (const album of albums) {
+  pictures = pictures.concat(album.pictures)
+}
+const combinedAlbum = {
+  pictures
+}
+export { combinedAlbum }
