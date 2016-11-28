@@ -1,9 +1,7 @@
 import React from 'react'
 
 const NumberOfColumns = (album, startIndex, preferredNumColumns) => {
-  const n = Math.min(preferredNumColumns, album.pictures.length - startIndex)
-  // console.log(startIndex, album.pictures.length, n)
-  return n
+  return Math.min(preferredNumColumns, album.pictures.length - startIndex)
 }
 
 const RowHeight = (album, startIndex, numberOfColumns, margin) => {
@@ -12,15 +10,11 @@ const RowHeight = (album, startIndex, numberOfColumns, margin) => {
   for (let columnIndex = 0; columnIndex < numberOfColumns; columnIndex++) {
     const pictureIndex = startIndex + columnIndex
     const ratio = album.pictures[pictureIndex].image.width / album.pictures[pictureIndex].image.height
-    // console.log(pictureIndex, 'ratio', ratio)
     totalRatio += ratio
   }
-  // console.log(startIndex, 'total', totalRatio)
-  // console.log()
 
   return parseInt((window.innerWidth - numberOfColumns * 2 * margin) / totalRatio, 10)
 }
-
 
 const range = n => {
   const a = []
@@ -37,7 +31,6 @@ const ImageRow = ({thumbnailComponent, album, albumNum, startIndex, numberOfColu
     </div>
   )
 }
-
 
 const ImageTable = ({thumbnailComponent, album, albumNum, preferredNumColumns, margin}) => { // note: stateless component
   const rows = []
@@ -57,9 +50,4 @@ const ImageTable = ({thumbnailComponent, album, albumNum, preferredNumColumns, m
   )
 }
 
-
-export default {
-  NumberOfColumns,
-  RowHeight,
-  ImageTable,
-}
+export default ImageTable
