@@ -97,7 +97,7 @@ body {
   margin: 10px;
 
   /* rounder corners */
-  border-radius: 40px;
+  border-radius: 50px;
 }
 .TheBigRedButton:active {
   top: 3px;
