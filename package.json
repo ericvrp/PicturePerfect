@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "not-working-deploy": "now --npm -e REACT_APP_SECRET_CODE=secretcode",
+    "deploy-now-static": "now --static",
     "deploy": "react-scripts build && ns build"
   }
 }
