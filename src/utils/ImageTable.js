@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { List } from 'react-virtualized'
 
 const NumberOfColumns = (album, startIndex, preferredNumColumns) => {
   return Math.min(preferredNumColumns, album.pictures.length - startIndex)
@@ -32,22 +33,68 @@ const ImageRow = ({thumbnailComponent, album, albumNum, startIndex, numberOfColu
   )
 }
 
-const ImageTable = ({thumbnailComponent, album, albumNum, preferredNumColumns, margin}) => { // note: stateless component
-  const rows = []
-  for (let startIndex = 0; startIndex < album.pictures.length;) {
-    const numberOfColumns = NumberOfColumns(album, startIndex, preferredNumColumns, margin)
-    rows.push({
-      startIndex,
-      numberOfColumns
-    })
-    startIndex += numberOfColumns
+export default class extends Component {
+  constructor(props) {
+    super(props)
+
+    this._rowRenderer = this._rowRenderer.bind(this)
   }
 
-  return (
-    <div className='ImageTable'>
+  _rowRenderer({index, isScrolling, key, style}) {
+    console.log('_rowRenderer', index, isScrolling, key) //, style)
+  // const {thumbnailComponent, album, albumNum, preferredNumColumns, margin} = this.props
+  //<ImageRow thumbnailComponent={thumbnailComponent} album={album} albumNum={albumNum} startIndex={row.startIndex} numberOfColumns={row.numberOfColumns} margin={margin} key={row.startIndex} />
+  }
+
+  render() {
+    const {thumbnailComponent, album, albumNum, preferredNumColumns, margin} = this.props
+    const rows = []
+    for (let startIndex = 0; startIndex < album.pictures.length;) {
+      const numberOfColumns = NumberOfColumns(album, startIndex, preferredNumColumns, margin)
+      rows.push({
+        startIndex,
+        numberOfColumns
+      })
+      startIndex += numberOfColumns
+    }
+
+    // https: //github.com/bvaughn/react-virtualized/blob/master/source/List/List.example.js
+    /*
+    <List
+    ref='List'
+    className={styles.List}
+    height={listHeight}
+    overscanRowCount={overscanRowCount}
+    noRowsRenderer={this._noRowsRenderer}
+    rowCount={rowCount}
+    rowHeight={useDynamicRowHeight ? this._getRowHeight : listRowHeight}
+    rowRenderer={this._rowRenderer}
+    scrollToIndex={scrollToIndex}
+    width={width}
+    />
+    */
+
+    return (
+      <div className='ImageTable'>
+
+      { /*
+      <List
+      ref='List'
+      className='EricsList'
+      rowCount={album.pictures.length}
+      width={window.innerWidth}
+      height={60}
+      rowHeight={20}
+      overscanRowCount={1}
+      rowRenderer={this._rowRenderer}
+      scrollToIndex={0}
+      />
+
+      <hr />
+      */ }
+
       {rows.map(row => <ImageRow thumbnailComponent={thumbnailComponent} album={album} albumNum={albumNum} startIndex={row.startIndex} numberOfColumns={row.numberOfColumns} margin={margin} key={row.startIndex} />)}
     </div>
-  )
+    )
+  }
 }
-
-export default ImageTable
