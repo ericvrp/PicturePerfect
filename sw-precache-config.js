@@ -15,7 +15,13 @@ module.exports = {
   runtimeCaching: [
     {
       urlPattern: /^http/,
-      handler: 'cacheFirst'
+      handler: 'cacheFirst',
+      options: {
+        debug: true,
+        cache: {
+          name: 'PicturePerfect-cache'
+        }
+      }
     },
   // {
   //   urlPattern: /^https:\/\/example\.com\/api/,
