@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { List } from 'react-virtualized'
+// import { List } from 'react-virtualized'
 
 const NumberOfColumns = (album, startIndex, preferredNumColumns) => {
   return Math.min(preferredNumColumns, album.pictures.length - startIndex)

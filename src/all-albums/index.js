@@ -16,6 +16,20 @@ import album15 from './zandkasteel_aan_zee'
 import album16 from './pipo_de_clown'
 
 const albums = [album01, album02, album03, album04, album05, album06, album07, album08, album09, album10, album11, album12, album13, album14, album15, album16]
+for (const album of albums) {
+  // console.log(album)
+  for (const picture of album.pictures) {
+    // console.log(picture)
+    if (picture.thumbnail.link.startsWith('http://')) {
+      console.warn('Thumbnail ' + picture.thumbnail.link)
+      picture.thumbnail.link = picture.thumbnail.link.replace('http://', 'https://')
+    }
+    if (picture.image.link.startsWith('http://')) {
+      console.warn('Image ' + picture.image.link)
+      picture.image.link = picture.image.link.replace('http://', 'https://')
+    }
+  }
+}
 export default albums
 
 let pictures = albums.reduce((a, b) => a.concat(b.pictures[0]), [])
