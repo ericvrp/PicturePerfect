@@ -3,6 +3,19 @@ module.exports = {
   pictures: [
     {
       image: {
+        link: 'https://media.pathe.nl/nocropthumb/1600x900/gfx_content/1still/PP-2012-006455.jpg',
+        width: 1351,
+        height: 900
+      },
+      thumbnail: {
+        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_wV0QvIZPx6F30sh6RkMKOEvTjmLyQoa7u6x6g6qFDHpvveNkvBlOTr0',
+        width: 150,
+        height: 100
+      }
+    }
+    ,
+    {
+      image: {
         link: 'http://www.janvis.nl/wp-content/uploads/2010/09/piet-piraat.jpg',
         width: 695,
         height: 330
@@ -492,19 +505,6 @@ module.exports = {
         link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSkg0FB6p32L0Eacx6Gwk8SRuePstc9vvcekyTadFM9hAQdb2W_q_cVa9k',
         width: 150,
         height: 63
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://media.pathe.nl/nocropthumb/1600x900/gfx_content/1still/PP-2012-006455.jpg',
-        width: 1351,
-        height: 900
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_wV0QvIZPx6F30sh6RkMKOEvTjmLyQoa7u6x6g6qFDHpvveNkvBlOTr0',
-        width: 150,
-        height: 100
       }
     }
     ,

@@ -3,6 +3,19 @@ module.exports = {
   pictures: [
     {
       image: {
+        link: 'https://images.nrc.nl/cpsOcSmkYJAT-Ye2KEhc0doahWI=/1280x/s3/static.nrc.nl/wp-content/uploads/2013/10/ANP-8674712.jpg',
+        width: 1280,
+        height: 852
+      },
+      thumbnail: {
+        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQkOeiS5ec94KFYSFNmDhmXsA9Ik9JFLzQJUNy9kIjLcma4HhAp4kptoVC7',
+        width: 150,
+        height: 100
+      }
+    }
+    ,
+    {
+      image: {
         link: 'http://images0.tcdn.nl/uitwinkelen/article22969558.ece/BINARY/u/warte+piet.JPG',
         width: 1500,
         height: 998
@@ -310,19 +323,6 @@ module.exports = {
         link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUJXbL3lIIVEAaUsccFHCKuCsEe3Gq6Dt24LK3jt4k7OAIpHbDhKy08Q',
         width: 116,
         height: 105
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://images.nrc.nl/cpsOcSmkYJAT-Ye2KEhc0doahWI=/1280x/s3/static.nrc.nl/wp-content/uploads/2013/10/ANP-8674712.jpg',
-        width: 1280,
-        height: 852
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQkOeiS5ec94KFYSFNmDhmXsA9Ik9JFLzQJUNy9kIjLcma4HhAp4kptoVC7',
-        width: 150,
-        height: 100
       }
     }
     ,

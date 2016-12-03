@@ -848,19 +848,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://img.gta5-mods.com/q95/images/teletubbies-textures/49cf37-Untitled1.png',
-        width: 1229,
-        height: 692
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR_0sBnSlVa06ebK-0ozJnwDKImddcQZnuO4XpUaXtVi90ZMM04KiSIIBZ0',
-        width: 150,
-        height: 84
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.susankmann.com/wordpress/wp-content/uploads/2016/01/Teletubbies.jpg',
         width: 634,
         height: 441

@@ -3,6 +3,18 @@ module.exports = {
   pictures: [
     {
       image: {
+        link: 'https://gertsamsonfanspagina.files.wordpress.com/2013/02/samson-gert-zomershow.jpg',
+        width: 694,
+        height: 387
+      },
+      thumbnail: {
+        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRMLxufspC8RiDZd2wyRtUkwvk6u1rOL8GKR_tWBO0ikwtjHrsPjEVcHCo',
+        width: 139,
+        height: 78
+      }
+    }
+    , {
+      image: {
         link: 'http://studio100.com/thumbnail/hero-slider-image/3945/hero.png',
         width: 600,
         height: 581
@@ -232,19 +244,6 @@ module.exports = {
         link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRY5wqdB_c2_GsR0fClJhI4pfEYzZv7KPd4aO0QP3T3cDU6ef0g4T_nlQ',
         width: 118,
         height: 118
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://gertsamsonfanspagina.files.wordpress.com/2013/02/samson-gert-zomershow.jpg',
-        width: 694,
-        height: 387
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRMLxufspC8RiDZd2wyRtUkwvk6u1rOL8GKR_tWBO0ikwtjHrsPjEVcHCo',
-        width: 139,
-        height: 78
       }
     }
     ,
@@ -1069,19 +1068,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://static2.fjcdn.com/thumbnails/comments/Its+a+shame+samson+en+gert+is+the+_6156fa764192e1cbb52e8bf997676c79.gif',
-        width: 245,
-        height: 145
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQFcJKrC0CwBc-iQD3eKgdIKUh-RjV5X0i4NFUK9_eRNtjfpNGjbJ4pFQ',
-        width: 110,
-        height: 65
-      }
-    }
-    ,
-    {
-      image: {
         link: 'https://i.ytimg.com/vi/PRFsW17mFsM/hqdefault.jpg',
         width: 480,
         height: 360
@@ -1259,19 +1245,6 @@ module.exports = {
         link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSd5VGBZjmqFRCJIBXkdUzhqDBTZPILswPUrMMSBYHKZHOU6i-mFTlD5Qw',
         width: 150,
         height: 84
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://static1.fjcdn.com/thumbnails/comments/Don+t+you+send+that+to+anyone+or+post+that+_8d255c376ddbcba80a25a40faf5d5756.gif',
-        width: 240,
-        height: 176
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRfbzC60QxnxbouWxQBWx4vyMeh4DVuw5TQ2Sw-CNreHz9VyPEa-keOrQ',
-        width: 110,
-        height: 81
       }
     }
     ,

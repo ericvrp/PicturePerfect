@@ -3,6 +3,19 @@ module.exports = {
   pictures: [
     {
       image: {
+        link: 'https://studio100.com/tv/wp-content/uploads/WP_Plop-en-de-Muziekkampioen.jpg',
+        width: 1920,
+        height: 1080
+      },
+      thumbnail: {
+        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSO_QGLtITbt7DWEHOXkqjKvKKfF6_g02-Fj3mgqkuEcXfJkZbpn2Q8ylhK',
+        width: 150,
+        height: 84
+      }
+    }
+    ,
+    {
+      image: {
         link: 'http://www.123boekingen.nl/img-items/kabouter-plop.jpg',
         width: 720,
         height: 405
@@ -74,19 +87,6 @@ module.exports = {
       },
       thumbnail: {
         link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTbg3i9D8g4vkEfePYGjgIq9ZQaSKtanXDcq54w5YxpqgmrsAwzt50PKk-X',
-        width: 150,
-        height: 84
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://studio100.com/tv/wp-content/uploads/WP_Plop-en-de-Muziekkampioen.jpg',
-        width: 1920,
-        height: 1080
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSO_QGLtITbt7DWEHOXkqjKvKKfF6_g02-Fj3mgqkuEcXfJkZbpn2Q8ylhK',
         width: 150,
         height: 84
       }

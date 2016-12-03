@@ -458,19 +458,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://www.musicmeter.nl/images/cover/120000/120612.jpg',
-        width: 200,
-        height: 200
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7NAEbdw5jh7gfP-DEpxrVpcIQlHTPlDwh3ZzTzTeL9xEKtjGonxmR3g',
-        width: 104,
-        height: 104
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.soepkippenshop.nl/files/21403/products/10855663/vantiebox_3cd.png',
         width: 533,
         height: 488
@@ -934,19 +921,6 @@ module.exports = {
         link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSh8mdkMU_Oc9i3OBuIK_W3aNJ4GFkgCZaHwoRWgulSIlLKiv9RMJ3d3Oc',
         width: 99,
         height: 141
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://i.ytimg.com/vi/Y7B-igTayv8/maxresdefault.jpg',
-        width: 1440,
-        height: 1080
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_dDy7JuP0nK2BYXZmmZzYjIFlic8VCUXb3gXj-X1vNE-fM6Zwm99O6lZU',
-        width: 150,
-        height: 113
       }
     }
     ,

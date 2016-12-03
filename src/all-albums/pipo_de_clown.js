@@ -3,6 +3,19 @@ module.exports = {
   pictures: [
     {
       image: {
+        link: 'https://c2.staticflickr.com/8/7369/12073134864_dc94478861_b.jpg',
+        width: 719,
+        height: 1024
+      },
+      thumbnail: {
+        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfj2_fso_d-v-w1C8RQmBF705LsdN2LtSKnT0zgOkJrWleVz1SH0l8pek',
+        width: 105,
+        height: 150
+      }
+    }
+    ,
+    {
+      image: {
         link: 'http://www.isalatheater.nl/cms_files/system/images/img2389_09.jpg',
         width: 398,
         height: 398
@@ -258,19 +271,6 @@ module.exports = {
         link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSCd0t8_eKXPkkWpdy8qne8Wkyk0VJfYCGC4NB94onpxewNHKoLru6o0ZFm',
         width: 130,
         height: 92
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://pbs.twimg.com/profile_images/516348833253842944/PAoie-E9_400x400.jpeg',
-        width: 400,
-        height: 400
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp-6Pkhb4_NQh4R4I7DHHDBNHyQeHtWnLpHqgaiuVUDnBYmrQ-DJVJS64',
-        width: 124,
-        height: 124
       }
     }
     ,
@@ -1130,19 +1130,6 @@ module.exports = {
         link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnYd0BT3wqi_aZ2PDS7rRQudCCvY8xRcvcug5_Rpsirbhi-4nKZKb3PV-6',
         width: 141,
         height: 141
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://c2.staticflickr.com/8/7369/12073134864_dc94478861_b.jpg',
-        width: 719,
-        height: 1024
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfj2_fso_d-v-w1C8RQmBF705LsdN2LtSKnT0zgOkJrWleVz1SH0l8pek',
-        width: 105,
-        height: 150
       }
     }
     ,
