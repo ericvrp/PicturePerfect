@@ -22,7 +22,7 @@
   "scripts": {
     "start": "PORT=3002 react-scripts start",
     "start-prod": "npm run build && list -s --port 3002 build",
-    "build": "react-scripts build && sw-precache --config=sw-precache-config.js",
+    "build": "rm -rf build && react-scripts build && sw-precache --config=sw-precache-config.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build && now --static build"
