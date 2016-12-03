@@ -14,12 +14,32 @@ module.exports = {
   // https://googlechrome.github.io/sw-toolbox/docs/master/tutorial-api.html
   runtimeCaching: [
     {
-      urlPattern: /^http/,
+      urlPattern: /\.gstatic\.com/,
       handler: 'cacheFirst',
       options: {
         debug: true,
         cache: {
-          name: 'PicturePerfect-cache'
+          name: 'lowres-cache'
+        }
+      }
+    },
+    {
+      urlPattern: /^http:/,
+      handler: 'cacheFirst',
+      options: {
+        debug: true,
+        cache: {
+          name: 'hires-http-cache'
+        }
+      }
+    },
+    {
+      urlPattern: /^https:/,
+      handler: 'cacheFirst',
+      options: {
+        debug: true,
+        cache: {
+          name: 'hires-https-cache'
         }
       }
     },
