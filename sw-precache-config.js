@@ -12,12 +12,12 @@ module.exports = {
   navigateFallback: 'index.html',
 
   // https://googlechrome.github.io/sw-toolbox/docs/master/tutorial-api.html
-  runtimeCaching: [
+  __runtimeCaching: [
     {
       urlPattern: /\.gstatic\.com/,
       handler: 'cacheFirst',
       options: {
-        debug: true,
+        // debug: true,
         cache: {
           name: 'lowres-cache'
         }
@@ -27,7 +27,7 @@ module.exports = {
       urlPattern: /^http:/,
       handler: 'cacheFirst',
       options: {
-        debug: true,
+        // debug: true,
         cache: {
           name: 'hires-http-cache'
         }
@@ -37,26 +37,12 @@ module.exports = {
       urlPattern: /^https:/,
       handler: 'cacheFirst',
       options: {
-        debug: true,
+        // debug: true,
         cache: {
           name: 'hires-https-cache'
         }
       }
     },
-  // {
-  //   urlPattern: /^https:\/\/example\.com\/api/,
-  //   handler: 'networkFirst'
-  // },
-  // {
-  //   urlPattern: /\/articles\//,
-  //   handler: 'fastest',
-  //   options: {
-  //     cache: {
-  //       maxEntries: 10,
-  //       name: 'articles-cache'
-  //     }
-  //   }
-  // }
   ],
 
   dontCacheBustUrlsMatching: /\.\w{8}\./,
