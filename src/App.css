@@ -4,6 +4,9 @@ body {
   border: 0;
   font-size: 0; /* We don't use text and we don't want empty space between rows with divs */
   /*font-family: sans-serif;*/
+
+  /*-webkit-overflow-scrolling: touch;
+  overflow: auto;*/
 }
 
 
@@ -68,6 +71,8 @@ body {
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
+
+  -webkit-overflow-scrolling: touch;
 }
 
 
