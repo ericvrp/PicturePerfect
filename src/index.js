@@ -7,6 +7,13 @@ import Album from './Album'
 import Image from './Image'
 import NotFound from './NotFound'
 
+import noBounce from './utils/noBounce'
+console.log(noBounce)
+
+noBounce.init({
+  animate: false
+})
+
 //import inobounce from 'inobounce'
 //inobounce.enable()
 // console.log(inobounce.isEnabled())
