@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: sans-serif;
+  font-size: 0; /* We don't use text and we don't want empty space between rows with divs */
+  /*font-family: sans-serif;*/
 }
 
 

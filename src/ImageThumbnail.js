@@ -7,9 +7,8 @@ export default class extends Component {
     const {image, thumbnail} = album.pictures[index]
     const scale = rowHeight / image.height
     const width = parseInt(image.width * scale, 10)
-    const height = parseInt(image.height * scale, 10)
     return (
-      <img onClick={browserHistory.push.bind(this, '/image/' + albumNum + '/' + index)} src={thumbnail.link} alt='' className='ImageThumbnail' width={width} height={height} />
+      <img onClick={browserHistory.push.bind(this, '/image/' + albumNum + '/' + index)} src={thumbnail.link} alt='' className='ImageThumbnail' width={width} height={rowHeight} />
     )
   }
 }

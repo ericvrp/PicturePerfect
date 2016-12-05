@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import { List } from 'react-virtualized'
+import { List } from 'react-virtualized'
 
 const NumberOfColumns = (album, startIndex, preferredNumColumns) => {
   return Math.min(preferredNumColumns, album.pictures.length - startIndex)
@@ -14,7 +14,9 @@ const RowHeight = (album, startIndex, numberOfColumns, margin) => {
     totalRatio += ratio
   }
 
-  return parseInt((window.innerWidth - numberOfColumns * 2 * margin) / totalRatio, 10)
+  const rowHeight = parseInt((window.innerWidth - numberOfColumns * 2 * margin) / totalRatio, 10)
+  console.log('RowHeight', startIndex, rowHeight)
+  return rowHeight
 }
 
 const range = n => {
@@ -27,9 +29,9 @@ const ImageRow = ({thumbnailComponent, album, albumNum, startIndex, numberOfColu
   const rowHeight = RowHeight(album, startIndex, numberOfColumns, margin)
   const Thumbnail = thumbnailComponent // because React needs a starting capital for JSX tags
   return (
-    <div className='ImageTableRow'>
+    <span className='ImageTableRow'>
       {range(numberOfColumns).map((_, columnIndex) => <Thumbnail album={album} albumNum={albumNum} index={startIndex + columnIndex} rowHeight={rowHeight} key={startIndex + columnIndex} />)}
-    </div>
+    </span>
   )
 }
 
@@ -38,25 +40,43 @@ export default class extends Component {
     super(props)
 
     this._rowRenderer = this._rowRenderer.bind(this)
+    this._getRowHeight = this._getRowHeight.bind(this)
   }
 
-  _rowRenderer({index, isScrolling, key, style}) {
-    console.log('_rowRenderer', index, isScrolling, key) //, style)
-  // const {thumbnailComponent, album, albumNum, preferredNumColumns, margin} = this.props
-  //<ImageRow thumbnailComponent={thumbnailComponent} album={album} albumNum={albumNum} startIndex={row.startIndex} numberOfColumns={row.numberOfColumns} margin={margin} key={row.startIndex} />
+  _getRowHeight({index}) {
+    const rowIndex = index
+    const {album, preferredNumColumns, margin} = this.props
+    const startIndex = preferredNumColumns * rowIndex
+    const numberOfColumns = NumberOfColumns(album, startIndex, preferredNumColumns, margin)
+    const rowHeight = RowHeight(album, startIndex, numberOfColumns, margin)
+    // console.log('_getRowHeight', rowIndex, 'has rowHeight', rowHeight)
+    return rowHeight
+  }
+
+  _rowRenderer({index, key}) {
+    const rowIndex = index
+    // console.log('_rowRenderer', rowIndex, key)
+
+    const {thumbnailComponent, album, albumNum, preferredNumColumns, margin} = this.props
+    const startIndex = preferredNumColumns * rowIndex
+    const numberOfColumns = NumberOfColumns(album, startIndex, preferredNumColumns, margin)
+
+    return (
+      <ImageRow thumbnailComponent={thumbnailComponent} album={album} albumNum={albumNum} startIndex={startIndex} numberOfColumns={numberOfColumns} margin={margin} key={key} />
+    )
   }
 
   render() {
-    const {thumbnailComponent, album, albumNum, preferredNumColumns, margin} = this.props
-    const rows = []
-    for (let startIndex = 0; startIndex < album.pictures.length;) {
-      const numberOfColumns = NumberOfColumns(album, startIndex, preferredNumColumns, margin)
-      rows.push({
-        startIndex,
-        numberOfColumns
-      })
-      startIndex += numberOfColumns
-    }
+    // const {thumbnailComponent, album, albumNum, preferredNumColumns, margin} = this.props
+    // const rows = []
+    // for (let startIndex = 0; startIndex < album.pictures.length;) {
+    //   const numberOfColumns = NumberOfColumns(album, startIndex, preferredNumColumns, margin)
+    //   rows.push({
+    //     startIndex,
+    //     numberOfColumns
+    //   })
+    //   startIndex += numberOfColumns
+    // }
 
     // https: //github.com/bvaughn/react-virtualized/blob/master/source/List/List.example.js
     /*
@@ -73,28 +93,26 @@ export default class extends Component {
     width={width}
     />
     */
+    console.log('-----------------------')
+    const rowCount = parseInt(this.props.album.pictures.length / this.props.preferredNumColumns, 10)
 
     return (
       <div className='ImageTable'>
-
-      { /*
-      <List
+        <List
       ref='List'
-      className='EricsList'
-      rowCount={album.pictures.length}
       width={window.innerWidth}
-      height={60}
-      rowHeight={20}
-      overscanRowCount={1}
+      height={window.innerHeight / 2}
+      rowHeight={this._getRowHeight}
+      overscanRowCount={5}
+      rowCount={rowCount}
       rowRenderer={this._rowRenderer}
-      scrollToIndex={0}
       />
+        { /*
+        <hr />
 
-      <hr />
-      */ }
-
-      {rows.map(row => <ImageRow thumbnailComponent={thumbnailComponent} album={album} albumNum={albumNum} startIndex={row.startIndex} numberOfColumns={row.numberOfColumns} margin={margin} key={row.startIndex} />)}
-    </div>
+        {rows.map(row => <ImageRow thumbnailComponent={thumbnailComponent} album={album} albumNum={albumNum} startIndex={row.startIndex} numberOfColumns={row.numberOfColumns} margin={margin} key={row.startIndex} />)}
+        */ }
+      </div>
     )
   }
 }
