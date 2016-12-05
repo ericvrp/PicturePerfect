@@ -7,6 +7,14 @@ import Album from './Album'
 import Image from './Image'
 import NotFound from './NotFound'
 
+import inobounce from 'inobounce'
+inobounce.enable()
+// console.log(inobounce.isEnabled())
+document.body.addEventListener('touchMove', function(event) {
+  event.stopPropagation()
+// console.log('touchmove stopPropagation')
+})
+
 ReactDOM.render((
   <Router history={browserHistory}>
     <Route path='/' component={App}>

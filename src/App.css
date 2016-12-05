@@ -9,11 +9,6 @@ body {
   overflow: auto;
 }
 
-body,
-html {
-  position: fixed;
-}
-
 
 .Blurred {
   /* nice magic */
