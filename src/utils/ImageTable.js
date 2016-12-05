@@ -29,9 +29,9 @@ const ImageRow = ({thumbnailComponent, album, albumNum, startIndex, numberOfColu
   const rowHeight = RowHeight(album, startIndex, numberOfColumns, margin)
   const Thumbnail = thumbnailComponent // because React needs a starting capital for JSX tags
   return (
-    <span className='ImageTableRow'>
+    <div className='ImageTableRow'>
       {range(numberOfColumns).map((_, columnIndex) => <Thumbnail album={album} albumNum={albumNum} index={startIndex + columnIndex} rowHeight={rowHeight} key={startIndex + columnIndex} />)}
-    </span>
+    </div>
   )
 }
 
