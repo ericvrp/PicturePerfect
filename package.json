@@ -15,7 +15,7 @@
     "react-fastclick": "^2.1.2",
     "react-fullscreen": "^0.1.0",
     "react-router": "^3.0.0",
-    "react-virtualized": "^8.7.0",
+    "react-virtualized": "^8.7.1",
     "sw-precache": "^4.2.3"
   },
   "scripts": {

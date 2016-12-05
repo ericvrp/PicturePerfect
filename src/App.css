@@ -29,7 +29,7 @@ body {
   box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
 
   /* rounder corners */
-  border-radius: 10px;
+  border-radius: 1vw
 }
 .AlbumThumbnail:active {
   -webkit-filter: brightness(0.5);
@@ -50,7 +50,7 @@ body {
   box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
 
   /* rounder corners */
-  border-radius: 10px;
+  border-radius: 1vw;
 }
 .ImageThumbnail:active {
   -webkit-filter: brightness(0.5);
@@ -78,7 +78,7 @@ body {
   box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
 
   /* rounder corners */
-  border-radius: 10px;
+  border-radius: 1vw
 }
 .Image:active {
   -webkit-filter: brightness(0.5);
@@ -95,7 +95,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  margin: 10px;
+  margin: 0.4vw;
 
   /* rounder corners */
   border-radius: 4vw;
