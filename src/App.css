@@ -5,8 +5,8 @@ body {
   font-size: 0; /* We don't use text and we don't want empty space between rows with divs */
   /*font-family: sans-serif;*/
 
-  /*-webkit-overflow-scrolling: touch;
-  overflow: auto;*/
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
 }
 
 
@@ -72,7 +72,7 @@ body {
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 
-  -webkit-overflow-scrolling: touch;
+  /*-webkit-overflow-scrolling: touch;*/
 }
 
 
