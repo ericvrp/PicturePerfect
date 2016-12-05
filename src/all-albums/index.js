@@ -10,14 +10,14 @@ import album09 from './brum'
 import album10 from './kabouter_plop'
 import album11 from './samson_en_gert'
 import album12 from './piet_piraat'
-// import album13 from './dora'
+import album13 from './dora'
 import album14 from './teletubbies'
 import album15 from './zandkasteel_aan_zee'
 import album16 from './pipo_de_clown'
 
-const albums = [album01, album02, album03, album04, album05, album06, album07, album08, album09, album10, album11, album12, /*album13, */ album14, album15, album16]
+const albums = [album01, album02, album03, album04, album05, album06, album07, album08, album09, album10, album11, album12, album13, album14, album15, album16]
 
-const removeHttpPictures = false
+const removeHttpPictures = true
 if (removeHttpPictures) {
   for (let a = 0; a < albums.length; a++) {
     // const before = albums[a].pictures.length
@@ -43,13 +43,3 @@ const overviewAlbum = {
   pictures
 }
 export { overviewAlbum }
-
-// note outcomment the following after react-virtualized is working
-pictures = []
-for (const album of albums) {
-  pictures = pictures.concat(album.pictures)
-}
-const combinedAlbum = {
-  pictures
-}
-export { combinedAlbum }

@@ -3,6 +3,19 @@ module.exports = {
   pictures: [
     {
       image: {
+        link: 'https://pmctvline2.files.wordpress.com/2016/05/teletubbies.jpg?w=620',
+        width: 620,
+        height: 420
+      },
+      thumbnail: {
+        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSE5Kea9_uebRPZy1eyx0km6hnmdxo2aNtkjLLsRuWYi2e4oDKBhY1bToM',
+        width: 136,
+        height: 92
+      }
+    }
+    ,
+    {
+      image: {
         link: 'https://lh3.googleusercontent.com/P2MksmCjiV2tK30tOBVta9AtM8C7lj-Me84XntxSZXc10ezkOCG4X2ze-dy65FzNeRM=h900',
         width: 1600,
         height: 900
@@ -89,19 +102,6 @@ module.exports = {
         link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRMl6kWhbepajmw2Mm3wVj14NUfFjtwZLh_89xCXE_EUNRPfYO0zjHOKBA',
         width: 124,
         height: 70
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://pmctvline2.files.wordpress.com/2016/05/teletubbies.jpg?w=620',
-        width: 620,
-        height: 420
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSE5Kea9_uebRPZy1eyx0km6hnmdxo2aNtkjLLsRuWYi2e4oDKBhY1bToM',
-        width: 136,
-        height: 92
       }
     }
     ,
