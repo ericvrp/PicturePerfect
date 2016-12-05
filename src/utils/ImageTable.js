@@ -76,6 +76,7 @@ export default class extends Component {
   render() {
     const rowCount = parseInt((this.props.album.pictures.length * this.props.nRepeats + this.props.preferredNumColumns - 1) / this.props.preferredNumColumns, 10)
 
+    // scrollToIndex={parseInt(rowCount / 2, 10)}
     return (
       <div className='ImageTable'>
         <List
@@ -83,9 +84,8 @@ export default class extends Component {
       width={ScreenSize().width}
       height={ScreenSize().height}
       rowHeight={this._getRowHeight}
-      overscanRowCount={10}
+      overscanRowCount={5}
       rowCount={rowCount}
-      scrollToIndex={parseInt(rowCount / 2, 10)}
       rowRenderer={this._rowRenderer}
       />
       </div>
