@@ -4,9 +4,6 @@ body {
   border: 0;
   font-size: 0; /* We don't use text and we don't want empty space between rows with divs */
   /*font-family: sans-serif;*/
-
-/*  -webkit-overflow-scrolling: touch;
-  overflow: auto;*/
 }
 
 
