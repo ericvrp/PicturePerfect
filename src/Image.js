@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ProgressiveImage from './utils/ProgressiveImage'
-import albums from './all-albums'
+import { albums } from './all-albums'
 
 export default class extends Component {
   render() {

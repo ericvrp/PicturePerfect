@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ImageTable from './utils/ImageTable'
-import albums from './all-albums'
+import { albums } from './all-albums'
 import ImageThumbnail from './ImageThumbnail'
 import TheBigRedButton from './TheBigRedButton'
 

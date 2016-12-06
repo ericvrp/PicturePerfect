@@ -1,19 +1,19 @@
-import album01 from './pippi_langkous'
-import album02 from './ernst_bobbie_en_de_rest'
-import album03 from './bassie_en_adriaan'
-import album04 from './sinterklaas'
-import album05 from './zwarte_piet'
-import album06 from './pakjesboot'
-import album07 from './ome_willem'
-import album08 from './swiebertje'
-import album09 from './brum'
-import album10 from './kabouter_plop'
-import album11 from './samson_en_gert'
-import album12 from './piet_piraat'
-import album13 from './dora'
-import album14 from './teletubbies'
-import album15 from './zandkasteel_aan_zee'
-import album16 from './pipo_de_clown'
+const album01 = require('./pippi_langkous')
+const album02 = require('./ernst_bobbie_en_de_rest')
+const album03 = require('./bassie_en_adriaan')
+const album04 = require('./sinterklaas')
+const album05 = require('./zwarte_piet')
+const album06 = require('./pakjesboot')
+const album07 = require('./ome_willem')
+const album08 = require('./swiebertje')
+const album09 = require('./brum')
+const album10 = require('./kabouter_plop')
+const album11 = require('./samson_en_gert')
+const album12 = require('./piet_piraat')
+const album13 = require('./dora')
+const album14 = require('./teletubbies')
+const album15 = require('./zandkasteel_aan_zee')
+const album16 = require('./pipo_de_clown')
 
 const albums = [album01, album02, album03, album04, album05, album06, album07, album08, album09, album10, album11, album12, album13, album14, album15, album16]
 
@@ -36,10 +36,15 @@ if (removeHttpPictures) {
     }
   }
 } // else !removeHttpPictures
-export default albums
 
+//
 let pictures = albums.reduce((a, b) => a.concat(b.pictures[0]), [])
 const overviewAlbum = {
   pictures
 }
-export { overviewAlbum }
+
+//
+module.exports = {
+  albums,
+  overviewAlbum
+}
