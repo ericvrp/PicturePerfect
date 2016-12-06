@@ -17,7 +17,7 @@ const album16 = require('./pipo_de_clown')
 
 const albums = [album01, album02, album03, album04, album05, album06, album07, album08, album09, album10, album11, album12, album13, album14, album15, album16]
 
-const removeHttpPictures = true
+const removeHttpPictures = false
 if (removeHttpPictures) {
   for (let a = 0; a < albums.length; a++) {
     // const before = albums[a].pictures.length
