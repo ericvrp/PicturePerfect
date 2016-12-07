@@ -11,7 +11,7 @@ export default class extends Component {
     const width = image.width * scale
     // console.log(scale, image.link)
     return (
-      <ProgressiveImage onClick={browserHistory.push.bind(this, '/album/' + _index)} className='AlbumThumbnail' lowresFilter={null} lowresSrc={image.link} width={width} height={imageHeight} />
+      <ProgressiveImage onClick={browserHistory.push.bind(this, '/album/' + _index)} className='AlbumThumbnail' lowresSrc={image.link} hiresSrc={image.link} width={width} height={imageHeight} />
     )
   }
 }
