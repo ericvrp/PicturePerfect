@@ -69,7 +69,7 @@ body {
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 
-  /*-webkit-overflow-scrolling: touch;*/
+  -webkit-overflow-scrolling: touch;
 }
 
 
@@ -80,7 +80,11 @@ body {
   box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
 
   /* rounder corners */
-  border-radius: 1vw
+  border-radius: 1vw;
+
+  /* stop scrolling immediately */
+  /*overflow-y: hidden;
+  -webkit-overflow-scrolling: auto;*/
 }
 .Image:active {
   -webkit-filter: brightness(0.5);

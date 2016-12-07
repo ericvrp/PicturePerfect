@@ -75,7 +75,6 @@ export default class extends Component {
 
   render() {
     const rowCount = parseInt((this.props.album.pictures.length * this.props.nRepeats + this.props.preferredNumColumns - 1) / this.props.preferredNumColumns, 10)
-
     // scrollToIndex={parseInt(rowCount / 2, 10)}
     return (
       <div className='ImageTable'>

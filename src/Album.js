@@ -10,7 +10,7 @@ export default class extends Component {
     return (
       <div className='Album'>
         <ImageTable imageComponent={ImageThumbnail} album={albums[albumNum]} albumNum={albumNum} preferredNumColumns={4} margin={3} nRepeats={666} />
-        <TheBigRedButton />
+        <TheBigRedButton router={this.props.router}/>
       </div>
     )
   }
