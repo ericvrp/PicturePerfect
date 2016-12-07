@@ -482,19 +482,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://unisci24.com/data_images/wlls/49/339923-teletubbies.jpg',
-        width: 976,
-        height: 549
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqEeg45FXOhuPwsZxP7L-4_3vuhRojrsC6ZerCqRLns1fqhStdC-m_sHkx',
-        width: 149,
-        height: 84
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://unisci24.com/data_images/wlls/49/339923-teletubbies.jpg',
+    //     width: 976,
+    //     height: 549
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqEeg45FXOhuPwsZxP7L-4_3vuhRojrsC6ZerCqRLns1fqhStdC-m_sHkx',
+    //     width: 149,
+    //     height: 84
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://images.nickjr.com/nickjr/promos/video/teletubbies/1505-teletubbies-babies-full-16x9.jpg?quality=0.60',
@@ -716,19 +716,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'https://pbs.twimg.com/profile_images/684880940309606401/Wie5WbcO.jpg',
-        width: 400,
-        height: 400
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-YFe_rhXj339l-CQW_15OxWI1PQnCnbelgZ7Z9n6D39ZQwIwTcAJlMRg',
-        width: 124,
-        height: 124
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'https://pbs.twimg.com/profile_images/684880940309606401/Wie5WbcO.jpg',
+    //     width: 400,
+    //     height: 400
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-YFe_rhXj339l-CQW_15OxWI1PQnCnbelgZ7Z9n6D39ZQwIwTcAJlMRg',
+    //     width: 124,
+    //     height: 124
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://cdn.wallpapersafari.com/57/42/ydpMS4.jpg',

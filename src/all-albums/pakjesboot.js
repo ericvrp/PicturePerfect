@@ -183,19 +183,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://dehavenloodsalexander.nl/polopoly_fs/1.5401844.1446557534!image/image-5401844.jpg',
-        width: 600,
-        height: 400
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRcrpx_qW8iOUEn4TCeNxq-jAeaIdJ0z_qeq4UyOfQsFK-W0cGSVHgIg2TB',
-        width: 135,
-        height: 90
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://dehavenloodsalexander.nl/polopoly_fs/1.5401844.1446557534!image/image-5401844.jpg',
+    //     width: 600,
+    //     height: 400
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRcrpx_qW8iOUEn4TCeNxq-jAeaIdJ0z_qeq4UyOfQsFK-W0cGSVHgIg2TB',
+    //     width: 135,
+    //     height: 90
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://sinterklaas.rijmnu.nl/fotos2005/a/sint27.jpg',

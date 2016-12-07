@@ -534,19 +534,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://toverland.nl/assets/images/headers/141009_Ernst&BobbieHeader_614x395.jpg',
-        width: 614,
-        height: 395
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT1K9XxvTSfGVzFt_7Ek1Vob2DrrhLbQbNekzbPPeaFHiYBUFLaMCz4e7Od',
-        width: 136,
-        height: 87
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://toverland.nl/assets/images/headers/141009_Ernst&BobbieHeader_614x395.jpg',
+    //     width: 614,
+    //     height: 395
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT1K9XxvTSfGVzFt_7Ek1Vob2DrrhLbQbNekzbPPeaFHiYBUFLaMCz4e7Od',
+    //     width: 136,
+    //     height: 87
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://www.ernstbobbie.nl/wp/wp-content/themes/ernstbobbie/timthumb.php?src=http://www.ernstbobbie.nl/wp/wp-content/uploads/2016/03/header_bg_sub.jpg&w=965&h=430&zc=1',
@@ -898,19 +898,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://www.trendmedia.nl/wp-content/uploads/2015/09/vakantieshow-low-res.jpg',
-        width: 1121,
-        height: 1133
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcShh-oWW2yxSx51sWZmJu0yOyPtllc48aa1LW6BArdH8hgLez1eer3J5AC4DQ',
-        width: 148,
-        height: 150
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://www.trendmedia.nl/wp-content/uploads/2015/09/vakantieshow-low-res.jpg',
+    //     width: 1121,
+    //     height: 1133
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcShh-oWW2yxSx51sWZmJu0yOyPtllc48aa1LW6BArdH8hgLez1eer3J5AC4DQ',
+    //     width: 148,
+    //     height: 150
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'https://s.s-bol.com/imgbase0/imagebase/large/FC/2/1/6/2/1002004010312612.jpg',

@@ -196,19 +196,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://www.annasanimaties.com/files/annasplaatjes/kabouter-plop/kabouter-plop-496.bmp',
-        width: 197,
-        height: 210
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSr9pD9c5iCpffif82T9Bc-U3G2hotjogoyrPGpcjQF6qxRZ7-b-JRkWOs',
-        width: 99,
-        height: 106
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://www.annasanimaties.com/files/annasplaatjes/kabouter-plop/kabouter-plop-496.bmp',
+    //     width: 197,
+    //     height: 210
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSr9pD9c5iCpffif82T9Bc-U3G2hotjogoyrPGpcjQF6qxRZ7-b-JRkWOs',
+    //     width: 99,
+    //     height: 106
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://www.animatieplaatjes.nl/plaatjesP/plop11.gif',
@@ -222,19 +222,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://www.annasanimaties.com/files/annasplaatjes/kabouter-plop/kabouter-plop-437.bmp',
-        width: 156,
-        height: 216
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRsciSN1rg7he7fLkKN81BzEK_dwvBcH4wrVB8zWOE-jiCMLCVWt7F6Lw',
-        width: 77,
-        height: 107
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://www.annasanimaties.com/files/annasplaatjes/kabouter-plop/kabouter-plop-437.bmp',
+    //     width: 156,
+    //     height: 216
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRsciSN1rg7he7fLkKN81BzEK_dwvBcH4wrVB8zWOE-jiCMLCVWt7F6Lw',
+    //     width: 77,
+    //     height: 107
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://www.kindertube.nl/kabouter-plop-liedjes/images/D3HFroGMmgU.jpg',

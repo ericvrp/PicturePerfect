@@ -534,19 +534,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://www.nrc.nl/wp-content/uploads/2012/11/ANP-21284640.jpg',
-        width: 5384,
-        height: 3151
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcROU5GD_fqZrdcyPBhiZC1Pgqyp9MjXum5hdNuV2Gn33nvK4e6Uc3zXvQg',
-        width: 150,
-        height: 88
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://www.nrc.nl/wp-content/uploads/2012/11/ANP-21284640.jpg',
+    //     width: 5384,
+    //     height: 3151
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcROU5GD_fqZrdcyPBhiZC1Pgqyp9MjXum5hdNuV2Gn33nvK4e6Uc3zXvQg',
+    //     width: 150,
+    //     height: 88
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://static.tagthelove.com/cms/93_f8e23554bfc2ce61_1024box.jpg',
@@ -651,19 +651,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://i226.photobucket.com/albums/dd217/cdmentertainment/Sint%20uitgesneden%202_zpszumcb9ll.gif',
-        width: 489,
-        height: 960
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQfFNR29Dx7aOJAchCe_kF8i8wfwGQhTAYx_Jx1WEj6WLhmol4Idei-VnD9',
-        width: 75,
-        height: 148
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://i226.photobucket.com/albums/dd217/cdmentertainment/Sint%20uitgesneden%202_zpszumcb9ll.gif',
+    //     width: 489,
+    //     height: 960
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQfFNR29Dx7aOJAchCe_kF8i8wfwGQhTAYx_Jx1WEj6WLhmol4Idei-VnD9',
+    //     width: 75,
+    //     height: 148
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'https://eduardvanbrakel.files.wordpress.com/2014/11/sinterklaas.jpg',
@@ -677,19 +677,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://www.sinterklaasenpietenopbezoek.nl/wp-content/gallery/fotoboek/sinterklaas-sinthoorn.jpg',
-        width: 533,
-        height: 800
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQFOCWrLBlus5_OC8jSdPtF_p7A3kT-AKOqm2oxJOovJJJLIF9lzK56FzfX',
-        width: 95,
-        height: 143
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://www.sinterklaasenpietenopbezoek.nl/wp-content/gallery/fotoboek/sinterklaas-sinthoorn.jpg',
+    //     width: 533,
+    //     height: 800
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQFOCWrLBlus5_OC8jSdPtF_p7A3kT-AKOqm2oxJOovJJJLIF9lzK56FzfX',
+    //     width: 95,
+    //     height: 143
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://bezoekvansint.nl/wp-content/uploads/2016/08/Kopie-van-logo-sinterklaaskeurmerk-transparant2.gif',
@@ -729,19 +729,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://www.sinterklaashoekvanholland.nl/wp-content/uploads/2015/11/sinterklaas-in-hoek-van-holland.jpg',
-        width: 2160,
-        height: 2160
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxzZUpwAj_TyQ3U6ncVTke3yGl3AIvzP6LQAy2XlM_Jh31IndTvKoIQ3V',
-        width: 150,
-        height: 150
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://www.sinterklaashoekvanholland.nl/wp-content/uploads/2015/11/sinterklaas-in-hoek-van-holland.jpg',
+    //     width: 2160,
+    //     height: 2160
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxzZUpwAj_TyQ3U6ncVTke3yGl3AIvzP6LQAy2XlM_Jh31IndTvKoIQ3V',
+    //     width: 150,
+    //     height: 150
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://images0.tcdn.nl/binnenland/article23336667.ece/BINARY/u/sinterklaas+anp+1.JPG',

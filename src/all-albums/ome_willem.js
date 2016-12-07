@@ -261,19 +261,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://tvenradiodb.nl/ie_fcache/0000002007_De-Film-van-Ome-Willem-19791103---Nieuwe-Kleren.jpg',
-        width: 480,
-        height: 384
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTibxL17fcuQeVZQrnVU6Mb7lBC-L-hYNQqBwOJ3dsKym_CE_Br2vs3Z6Z_',
-        width: 129,
-        height: 103
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://tvenradiodb.nl/ie_fcache/0000002007_De-Film-van-Ome-Willem-19791103---Nieuwe-Kleren.jpg',
+    //     width: 480,
+    //     height: 384
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTibxL17fcuQeVZQrnVU6Mb7lBC-L-hYNQqBwOJ3dsKym_CE_Br2vs3Z6Z_',
+    //     width: 129,
+    //     height: 103
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://images.fok.nl/upload/OmeW.gif',
@@ -456,19 +456,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://tvenradiodb.nl/ie_fcache/0000002008_De-Film-van-Ome-Willem-19740925---Warm-of-Koud-02.jpg',
-        width: 480,
-        height: 384
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfm9RN-72QDhRrxRfVTdYOsQnpreB-Aj4MVzpnM95foqgbREZUffmCavf2',
-        width: 129,
-        height: 103
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://tvenradiodb.nl/ie_fcache/0000002008_De-Film-van-Ome-Willem-19740925---Warm-of-Koud-02.jpg',
+    //     width: 480,
+    //     height: 384
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfm9RN-72QDhRrxRfVTdYOsQnpreB-Aj4MVzpnM95foqgbREZUffmCavf2',
+    //     width: 129,
+    //     height: 103
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'https://www.waarkeekjijvroegernaar.nl/screenshots/albums/screenshots/Film_van_Ome_Willem/omewillem17.jpg',

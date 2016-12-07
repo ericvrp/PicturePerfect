@@ -222,19 +222,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://i1185.photobucket.com/albums/z343/guust44/zwpiet_zps96049a22.jpg',
-        width: 568,
-        height: 378
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScHoVIx1-Bd1hGdwnIjLxR1TbxKYlIx1qmJ6rJ5yGsEufFTriOmyZMEcvh',
-        width: 134,
-        height: 89
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://i1185.photobucket.com/albums/z343/guust44/zwpiet_zps96049a22.jpg',
+    //     width: 568,
+    //     height: 378
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScHoVIx1-Bd1hGdwnIjLxR1TbxKYlIx1qmJ6rJ5yGsEufFTriOmyZMEcvh',
+    //     width: 134,
+    //     height: 89
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://g8fip1kplyr33r3krz5b97d1.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/GettyImages-450019599-714x475.jpg',
@@ -248,19 +248,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://www.renegadetribune.com/wp-content/uploads/2015/12/ANP-252311841.jpg',
-        width: 4041,
-        height: 2651
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjBDweGlU0WSBFzxQudef1SabjBT-fZc45tbQKuy5BJH_Jr2zXQLN3y9o-',
-        width: 150,
-        height: 98
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://www.renegadetribune.com/wp-content/uploads/2015/12/ANP-252311841.jpg',
+    //     width: 4041,
+    //     height: 2651
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjBDweGlU0WSBFzxQudef1SabjBT-fZc45tbQKuy5BJH_Jr2zXQLN3y9o-',
+    //     width: 150,
+    //     height: 98
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'https://s-media-cache-ak0.pinimg.com/originals/95/4e/43/954e43e80bdc4f74c0e6acd6cbdbb465.jpg',
@@ -391,19 +391,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://images.huffingtonpost.com/2014-07-07-ZwartePietLoekiefoto.JPG',
-        width: 3648,
-        height: 2736
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDpGV9IEIk6x0vj8CwQEbx-pbgY464CO6d3FTI812zGhHjTGAc3cRNG6w',
-        width: 150,
-        height: 113
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://images.huffingtonpost.com/2014-07-07-ZwartePietLoekiefoto.JPG',
+    //     width: 3648,
+    //     height: 2736
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDpGV9IEIk6x0vj8CwQEbx-pbgY464CO6d3FTI812zGhHjTGAc3cRNG6w',
+    //     width: 150,
+    //     height: 113
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'https://i.ytimg.com/vi/Zr6jgjnhAR8/maxresdefault.jpg',
@@ -456,19 +456,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://www.karnevalswierts.com/uploads/productfotos/zoom/KA6338.jpg',
-        width: 953,
-        height: 1200
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDZHJF9A-F-IgXoCnP4BM9tQW_Vx4Efsv0LPePLKiIAhoD3YawPq5cYdw',
-        width: 119,
-        height: 150
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://www.karnevalswierts.com/uploads/productfotos/zoom/KA6338.jpg',
+    //     width: 953,
+    //     height: 1200
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDZHJF9A-F-IgXoCnP4BM9tQW_Vx4Efsv0LPePLKiIAhoD3YawPq5cYdw',
+    //     width: 119,
+    //     height: 150
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://www.expatica.com/media/upload/features/562467.jpg',
@@ -599,19 +599,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://files.sloeproeien.webnode.nl/200005387-c0b71c1b0d/310px-1ZwartePiet.png',
-        width: 310,
-        height: 245
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSIgpAHvLTjJQfOIskwJ-GkK13kI-G0wJm2Ls7m5KfZUNazK2SS8TKJbRY',
-        width: 117,
-        height: 92
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://files.sloeproeien.webnode.nl/200005387-c0b71c1b0d/310px-1ZwartePiet.png',
+    //     width: 310,
+    //     height: 245
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSIgpAHvLTjJQfOIskwJ-GkK13kI-G0wJm2Ls7m5KfZUNazK2SS8TKJbRY',
+    //     width: 117,
+    //     height: 92
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'https://i.ytimg.com/vi/tI2iWK3mAqI/hqdefault.jpg',

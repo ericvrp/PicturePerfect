@@ -104,19 +104,19 @@ module.exports = {
         height: 104
       }
     }
-    ,
-    {
-      image: {
-        link: 'http://studio100.com/tv/wp-content/uploads/WP_Pippi-Langkous.png',
-        width: 1920,
-        height: 1080
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReJjS_RarAI12MmIDrpVN1A113m8B3kn-nK1EPqgAWESxH9QuJLQTPx5MW',
-        width: 150,
-        height: 84
-      }
-    }
+    // ,
+    // {
+    //   image: {
+    //     link: 'http://studio100.com/tv/wp-content/uploads/WP_Pippi-Langkous.png',
+    //     width: 1920,
+    //     height: 1080
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReJjS_RarAI12MmIDrpVN1A113m8B3kn-nK1EPqgAWESxH9QuJLQTPx5MW',
+    //     width: 150,
+    //     height: 84
+    //   }
+    // }
     ,
     {
       image: {
@@ -131,19 +131,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://blog.swipenshop.nl/wp-content/uploads/2016/02/Pippi-Langkous-800x400.jpg',
-        width: 800,
-        height: 400
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRH5gqRJ5xbMTTLfU1NRBnwrLNnkqLAYfjidwBGwE1j_ojOQhgkKlmSSl9S',
-        width: 143,
-        height: 72
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://blog.swipenshop.nl/wp-content/uploads/2016/02/Pippi-Langkous-800x400.jpg',
+    //     width: 800,
+    //     height: 400
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRH5gqRJ5xbMTTLfU1NRBnwrLNnkqLAYfjidwBGwE1j_ojOQhgkKlmSSl9S',
+    //     width: 143,
+    //     height: 72
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'https://herstorischerfgoed.files.wordpress.com/2015/06/pippi-langkous-kinderfilmpje-small.jpg',
@@ -274,19 +274,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://cdn.welingelichtekringen.nl/wp-content/uploads/2014/10/pippi_langkous.jpg',
-        width: 2012,
-        height: 1511
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSy_AIUqoVjCTfkwiCpzcQPKq5yCz4z_V8cTHVf5HPLurB6rnHg1sgPKhv_',
-        width: 150,
-        height: 113
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://cdn.welingelichtekringen.nl/wp-content/uploads/2014/10/pippi_langkous.jpg',
+    //     width: 2012,
+    //     height: 1511
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSy_AIUqoVjCTfkwiCpzcQPKq5yCz4z_V8cTHVf5HPLurB6rnHg1sgPKhv_',
+    //     width: 150,
+    //     height: 113
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'https://s-media-cache-ak0.pinimg.com/originals/af/e8/96/afe896a613a334789c31a298a80ad250.jpg',
@@ -573,19 +573,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://www.caipanequimint.nl/wp-content/uploads/2013/09/paard-pippi-langkous.jpg',
-        width: 300,
-        height: 224
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRcj20tv58yKQ11brfdmTFbKXodNTSO3IInKuwIkpQxxGYi9U0Bh9mfAA',
-        width: 116,
-        height: 87
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://www.caipanequimint.nl/wp-content/uploads/2013/09/paard-pippi-langkous.jpg',
+    //     width: 300,
+    //     height: 224
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRcj20tv58yKQ11brfdmTFbKXodNTSO3IInKuwIkpQxxGYi9U0Bh9mfAA',
+    //     width: 116,
+    //     height: 87
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://www.froot.nl/wp-content/uploads/2016/01/200.gif',

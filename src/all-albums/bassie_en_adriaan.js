@@ -157,19 +157,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'http://www.froot.nl/wp-content/uploads/2013/06/Bassie-en-Adriaan.png',
-        width: 437,
-        height: 666
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVy0Y25l81BxFyRH0bKwcW6Qw3OVbEDGW2svS-UHvtuzxYs8pTfAb9D3o',
-        width: 91,
-        height: 138
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'http://www.froot.nl/wp-content/uploads/2013/06/Bassie-en-Adriaan.png',
+    //     width: 437,
+    //     height: 666
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVy0Y25l81BxFyRH0bKwcW6Qw3OVbEDGW2svS-UHvtuzxYs8pTfAb9D3o',
+    //     width: 91,
+    //     height: 138
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://0.static.upcoming.nl/static/images/32c8325010_1410334290_Mooi-Zo-klinkt-het-als-buitenlanders-de-begintune-van-Bassie-en-Adriaan-zingen__shre.jpg',
@@ -807,19 +807,19 @@ module.exports = {
       }
     }
     ,
-    {
-      image: {
-        link: 'https://img.discogs.com/coMa26wUDDHpf02jwhi6_Hh0Eus=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-833860-1383342558-6854.jpeg.jpg',
-        width: 297,
-        height: 290
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmWtRV1GyueBXYNzzd5G9d04BEYnphyVwTeQZw-lHS7zBe3UH2foagRlk',
-        width: 116,
-        height: 113
-      }
-    }
-    ,
+    // {
+    //   image: {
+    //     link: 'https://img.discogs.com/coMa26wUDDHpf02jwhi6_Hh0Eus=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-833860-1383342558-6854.jpeg.jpg',
+    //     width: 297,
+    //     height: 290
+    //   },
+    //   thumbnail: {
+    //     link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmWtRV1GyueBXYNzzd5G9d04BEYnphyVwTeQZw-lHS7zBe3UH2foagRlk',
+    //     width: 116,
+    //     height: 113
+    //   }
+    // }
+    // ,
     {
       image: {
         link: 'http://0.static.upcoming.nl/static/images/076acd66d6_1378977695_9-Hele-flauwe-grapppen-met-Bassie-Adriaan__shre.jpg',
