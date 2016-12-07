@@ -25,10 +25,6 @@ if (removeHttpPictures) {
     // const after = albums[a].pictures.length
     // console.log(albums[a].name, before, '->', after)
     for (const picture of albums[a].pictures) {
-      if (picture.thumbnail.link.startsWith('http://')) {
-        console.warn('Thumbnail ' + picture.thumbnail.link)
-        picture.thumbnail.link = picture.thumbnail.link.replace('http://', 'https://')
-      }
       if (picture.image.link.startsWith('http://')) {
         console.warn('Image ' + picture.image.link)
         picture.image.link = picture.image.link.replace('http://', 'https://')

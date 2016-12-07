@@ -6,13 +6,13 @@ export default class extends Component {
   render() {
     const {albumNum = 0} = this.props.params
     const {pictureNum = 0} = this.props.params
-    const {image, thumbnail} = albums[albumNum].pictures[pictureNum]
+    const {image} = albums[albumNum].pictures[pictureNum]
     const scale = 0.95 * Math.min(window.innerWidth / image.width, window.innerHeight / image.height)
 
     return (
       <div>
-        <img onClick={this.props.router.goBack} src={thumbnail.link} className='CenterBothDirections Dimmed Blurred' alt='' width={window.innerWidth} height={window.innerHeight} />
-        <ProgressiveImage onClick={this.props.router.goBack} lowresSrc={thumbnail.link} hiresSrc={image.link} className='CenterBothDirections Image' width={image.width * scale} height={image.height * scale} />
+        <ProgressiveImage onClick={this.props.router.goBack} lowresSrc={image.link} className='CenterBothDirections Image' width={window.innerWidth} height={window.innerHeight} />
+        <ProgressiveImage onClick={this.props.router.goBack} lowresSrc={image.link} hiresSrc={image.link} className='CenterBothDirections Image' width={image.width * scale} height={image.height * scale} />
       </div>
     )
   }

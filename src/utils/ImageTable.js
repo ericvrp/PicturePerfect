@@ -28,14 +28,14 @@ const range = n => {
   return a
 }
 
-const ImageRow = ({thumbnailComponent, album, albumNum, startIndex, numberOfColumns, margin, style}) => {
+const ImageRow = ({imageComponent, album, albumNum, startIndex, numberOfColumns, margin, style}) => {
   const imageHeight = ImageHeight(album, startIndex, numberOfColumns, margin)
   const realStartIndex = startIndex % album.pictures.length
-  const Thumbnail = thumbnailComponent // because React needs a starting capital for JSX tags
+  const ImageComponent = imageComponent // because React needs a starting capital for JSX tags
   // console.log('ImageRow', startIndex, imageHeight, style)
   return (
     <div className='ImageTableRow' style={style}>
-      {range(numberOfColumns).map((_, columnIndex) => <Thumbnail album={album} albumNum={albumNum} index={realStartIndex + columnIndex} imageHeight={imageHeight} key={realStartIndex + columnIndex} />)}
+      {range(numberOfColumns).map((_, columnIndex) => <ImageComponent album={album} albumNum={albumNum} index={realStartIndex + columnIndex} imageHeight={imageHeight} key={realStartIndex + columnIndex} />)}
     </div>
   )
 }
@@ -64,12 +64,12 @@ export default class extends Component {
     // console.log('_rowRenderer', rowIndex, key, style)
     // console.log(ScreenSize())
 
-    const {thumbnailComponent, album, albumNum, preferredNumColumns, margin, nRepeats} = this.props
+    const {imageComponent, album, albumNum, preferredNumColumns, margin, nRepeats} = this.props
     const startIndex = preferredNumColumns * rowIndex
     const numberOfColumns = NumberOfColumns(album.pictures.length * nRepeats, startIndex, preferredNumColumns, margin)
 
     return (
-      <ImageRow thumbnailComponent={thumbnailComponent} album={album} albumNum={albumNum} startIndex={startIndex} numberOfColumns={numberOfColumns} margin={margin} key={key} style={style} />
+      <ImageRow imageComponent={imageComponent} album={album} albumNum={albumNum} startIndex={startIndex} numberOfColumns={numberOfColumns} margin={margin} key={key} style={style} />
     )
   }
 

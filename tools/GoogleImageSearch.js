@@ -1,6 +1,6 @@
 const google = require('googleapis')
 const settings = require('../settings')
-
+const md5 = require('md5')
 
 const customsearch = google.customsearch('v1')
 
@@ -42,13 +42,9 @@ for (let nResults = 0; nResults < maxResults; nResults += nResultsPerBatch) {
         const result = {
           image: {
             link: item.link,
+            md5Link: md5(item.link),
             width: item.image.width,
             height: item.image.height,
-          },
-          thumbnail: {
-            link: item.image.thumbnailLink,
-            width: item.image.thumbnailWidth,
-            height: item.image.thumbnailHeight,
           }
         }
         console.log(result) // note: results might arrive out of order
