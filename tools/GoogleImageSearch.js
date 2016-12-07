@@ -42,7 +42,9 @@ for (let nResults = 0; nResults < maxResults; nResults += nResultsPerBatch) {
         const result = {
           image: {
             link: item.link,
-            md5Link: md5(item.link),
+            // md5Link: md5(item.link),
+            // ratio: item.image.width / item.image.height,
+            // color: 'rgb(255,255,255)',
             width: item.image.width,
             height: item.image.height,
           }

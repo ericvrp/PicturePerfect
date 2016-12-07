@@ -12,6 +12,7 @@ for (const album of albums) {
   for (const picture of album.pictures) {
     const {link} = picture.image
     console.log(md5(link), link)
+    // continue // to be able to find md5's of links
 
     request({
       url: link,
