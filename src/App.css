@@ -97,14 +97,14 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  margin: 0.4vw;
+  margin: 1vw;
 
   /* rounder corners */
   border-radius: 4vw;
 }
 .TheBigRedButton:active {
-  top: 1vw;
-  left: 0.2vw;
+  /*top: 0.3vw;
+  left: 0.3vw;*/
 
   -webkit-filter: brightness(0.5);
 
