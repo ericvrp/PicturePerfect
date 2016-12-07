@@ -26,7 +26,7 @@ export default class extends Component {
   }
 
   render() {
-    const {lowresFilter='blur(3px)', width, height, onClick, alt='', className = 'ProgressiveImage'} = this.props
+    const {lowresFilter='blur(5px)', width, height, onClick, alt='', className = 'ProgressiveImage'} = this.props
     // console.log(this.props)
     const src = this.state.hiresSrcLoaded ? this.hiresImage.src : this.realLowresSrc
 
