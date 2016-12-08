@@ -60,8 +60,13 @@ export default class extends Component {
     this._getRowHeight = this
       ._getRowHeight
       .bind(this)
+
     this._rowRenderer = this
       ._rowRenderer
+      .bind(this)
+
+    this._onScroll = this
+      ._onScroll
       .bind(this)
   }
 
@@ -102,13 +107,19 @@ export default class extends Component {
       style={style}/>)
   }
 
+  _onScroll({scrollTop}) {
+    this.props.imageComponent.scrollTop = scrollTop
+    // console.log(this.props.imageComponent.scrollTop)
+  }
+
   render() {
     const rowCount = parseInt((this.props.album.pictures.length * this.props.nRepeats + this.props.preferredNumColumns - 1) / this.props.preferredNumColumns, 10)
     const estimatedRowSize = this._getRowHeight({index: 0})
-    // console.log('estimatedRowSize', estimatedRowSize)
+    const scrollTop = this.props.imageComponent.scrollTop || parseInt(rowCount * estimatedRowSize / 2, 10);
+    // console.log('reset scrollTop to', scrollTop)
 
     if (this.refs.List) {
-      // console.log(this.refs.List)
+      console.log(this.refs.List)
       this
         .refs
         .List
@@ -126,7 +137,8 @@ export default class extends Component {
           overscanRowCount={5}
           rowCount={rowCount}
           rowRenderer={this._rowRenderer}
-          scrollToIndex={parseInt(rowCount / 2, 10)}/>
+          scrollTop={scrollTop}
+          onScroll={this._onScroll}/>
       </div>
     )
   }
