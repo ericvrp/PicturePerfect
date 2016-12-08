@@ -32,7 +32,7 @@ for (const album of albums) {
           sharp(bodyBuffer)
             .resize(maxSize, maxSize)
             .max()
-            // .progressive()
+            .progressive()
             .quality(quality) // (jpg) default=80
             .toFile('public/images/' + maxSize + '/' + md5(link) + '.jpg')
         }
