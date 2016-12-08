@@ -11,7 +11,7 @@ export default class extends Component {
 
     return (
       <div>
-        <ProgressiveImage onClick={this.props.router.goBack} lowresSrc={image.link} className='CenterBothDirections Image' width={window.innerWidth} height={window.innerHeight} />
+        <ProgressiveImage onClick={this.props.router.goBack} lowresSrc={image.link} className='CenterBothDirections' width={window.innerWidth} height={window.innerHeight} />
         <ProgressiveImage onClick={this.props.router.goBack} lowresSrc={image.link} hiresSrc={image.link} className='CenterBothDirections Image' width={image.width * scale} height={image.height * scale} />
       </div>
     )

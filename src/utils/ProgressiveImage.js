@@ -32,14 +32,14 @@ export default class extends Component {
 
     return (
       <img className={className}
-      src={src}
-      alt={alt}
-      width={parseInt(width, 10)}
-      height={parseInt(height, 10)}
-      onClick={onClick}
-      style={{
-        filter: this.state.hiresSrcLoaded ? null : lowresFilter
-      }}
+        src={src}
+        alt={alt}
+        width={parseInt(width, 10)}
+        height={parseInt(height, 10)}
+        onClick={onClick}
+        style={{
+          filter: this.state.hiresSrcLoaded ? null : lowresFilter
+        }}
       />
     )
   }

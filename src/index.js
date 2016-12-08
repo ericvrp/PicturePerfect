@@ -8,13 +8,8 @@ import Album from './Album'
 import Image from './Image'
 import NotFound from './NotFound'
 
-// const useScrollCallback = (prevRouterProps, {routes}) => {
-//   // console.log(prevRouterProps)
-//   return [0, 200]
-// }
-
 ReactDOM.render((
-  // render={applyRouterMiddleware(useScroll(useScrollCallback))}
+  //  render={applyRouterMiddleware(useScroll(() => true))}
   <Router history={browserHistory}>
     <Route path='/' component={App}>
       <IndexRoute component={AlbumsOverview} />
