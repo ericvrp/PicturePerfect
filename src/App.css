@@ -62,15 +62,15 @@ body {
 
 
 .CenterBothDirections {
-  position:fixed;
+  position:absolute; /* fixed in iOS Safari works, but not in KiosPro */
   top:50%;
   left:50%;
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 
-  -webkit-overflow-scrolling: touch;
-  overflow: auto;
+  -webkit-overflow-scrolling: touch; /* not really sure what this does */
+  overflow: hidden; /* not really sure what this does */
 }
 
 
