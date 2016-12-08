@@ -8,6 +8,8 @@ import Album from './Album'
 import Image from './Image'
 import NotFound from './NotFound'
 
+// https://github.com/taion/react-router-scroll/issues/15
+
 ReactDOM.render((
   //  render={applyRouterMiddleware(useScroll(() => true))}
   <Router history={browserHistory}>

@@ -9,7 +9,7 @@ export default class extends Component {
     const {albumNum = 0} = this.props.params
     return (
       <div className='Album'>
-        <ImageTable imageComponent={ImageThumbnail} album={albums[albumNum]} albumNum={albumNum} preferredNumColumns={4} margin={3} nRepeats={666} />
+        <ImageTable imageComponent={ImageThumbnail} album={albums[albumNum]} albumNum={albumNum} preferredNumColumns={4} margin={3} nRepeats={42} />
         <TheBigRedButton router={this.props.router}/>
       </div>
     )
