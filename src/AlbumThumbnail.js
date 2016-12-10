@@ -11,7 +11,7 @@ export default class extends Component {
     const width = image.width * scale
     // console.log(scale, image.link)
     return (
-      <Image onClick={browserHistory.push.bind(this, '/album/' + _index)} className='AlbumThumbnail' src={image.link} width={width} height={imageHeight} />
+      <Image onClick={browserHistory.push.bind(this, '/album/' + _index)} className='AlbumThumbnail' src={image.link} resolution={512} width={width} height={imageHeight} />
     )
   }
 }
