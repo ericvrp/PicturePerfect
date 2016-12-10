@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { browserHistory } from 'react-router'
-import ProgressiveImage from './utils/ProgressiveImage'
+import Image from './utils/Image'
 
 export default class extends Component {
   render() {
@@ -11,7 +11,7 @@ export default class extends Component {
     const width = parseInt(image.width * scale, 10)
     // console.log(scale, image.link)
     return (
-      <ProgressiveImage onClick={browserHistory.push.bind(this, '/image/' + albumNum + '/' + _index)} className='ImageThumbnail' lowresFilter={null} lowresSrc={image.link} width={width} height={imageHeight} />
+      <Image onClick={browserHistory.push.bind(this, '/image/' + albumNum + '/' + _index)} className='ImageThumbnail' src={image.link} width={width} height={imageHeight} />
     )
   }
 }

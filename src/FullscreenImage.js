@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ProgressiveImage from './utils/ProgressiveImage'
+import Image from './utils/Image'
 import { albums } from './all-albums'
 
 export default class extends Component {
@@ -11,8 +11,8 @@ export default class extends Component {
 
     return (
       <div>
-        <ProgressiveImage onClick={this.props.router.goBack} lowresSrc={image.link} className='CenterBothDirections' width={window.innerWidth} height={window.innerHeight} />
-        <ProgressiveImage onClick={this.props.router.goBack} lowresSrc={image.link} hiresSrc={image.link} className='CenterBothDirections Image' width={image.width * scale} height={image.height * scale} />
+        <Image onClick={this.props.router.goBack} src={image.link} style={{filter:'blur(5px)'}} className='CenterBothDirections' width={window.innerWidth} height={window.innerHeight} />
+        <Image onClick={this.props.router.goBack} src={image.link} resolution={1024} className='CenterBothDirections Image' width={image.width * scale} height={image.height * scale} />
       </div>
     )
   }
