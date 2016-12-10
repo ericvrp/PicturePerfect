@@ -1134,19 +1134,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'https://images.toychamp.nl/highres/01031232/01031232_002.jpg',
-        width: 422,
-        height: 600
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQwhvJdriA-5rTM488dj4qoJeheYmW3I4BS3YD4ZyY8UKEFgRq_045TZ-eQ',
-        width: 95,
-        height: 135
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://studio100.com/tv/wp-content/uploads/WP_Piet-Piraat-en-de-Betoverde-Kroon_1920x800_acf_cropped.jpg',
         width: 1920,
         height: 800
@@ -1220,19 +1207,6 @@ module.exports = {
         link: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRhHvJmSM21tEjzvBxyJBLa15Y6H_Z1X9NtCKrFZjpeWClbANLx3cjsOXc',
         width: 105,
         height: 140
-      }
-    }
-    ,
-    {
-      image: {
-        link: 'https://images.toychamp.nl/highres/00981156/00981156_002.jpg',
-        width: 425,
-        height: 600
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm4x10-pD97mIOXXomQ-9nw31xhLcHvA62M4x0g6hQAUvOKPneSQazWibG',
-        width: 96,
-        height: 135
       }
     }
     ,

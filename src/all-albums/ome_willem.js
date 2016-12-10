@@ -1108,19 +1108,6 @@ module.exports = {
     ,
     {
       image: {
-        link: 'http://www.tvvantoen.nl/wp-content/uploads/ome-willem.jpg',
-        width: 700,
-        height: 400
-      },
-      thumbnail: {
-        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K62epU-_BqG8jRdqfhS6tVh2VzZvDjveZpiNUCTrzqfkeCmMu0E5Ais',
-        width: 140,
-        height: 80
-      }
-    }
-    ,
-    {
-      image: {
         link: 'http://www.seriesvanvroeger.nl/images/screenshots/liblj_willem.jpg',
         width: 470,
         height: 343
