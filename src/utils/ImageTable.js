@@ -108,18 +108,18 @@ export default class extends Component {
   }
 
   _onScroll({scrollTop}) {
-    this.props.imageComponent.scrollTop = scrollTop
-    // console.log(this.props.imageComponent.scrollTop)
+    this.props.album.scrollTop = scrollTop
+    // console.log(this.props.album.scrollTop)
   }
 
   render() {
     const rowCount = parseInt((this.props.album.pictures.length * this.props.nRepeats + this.props.preferredNumColumns - 1) / this.props.preferredNumColumns, 10)
     const estimatedRowSize = this._getRowHeight({index: 0})
-    const scrollTop = this.props.imageComponent.scrollTop || parseInt(rowCount * estimatedRowSize / 2, 10);
+    const scrollTop = this.props.album.scrollTop || parseInt(rowCount * estimatedRowSize / 2, 10);
     // console.log('reset scrollTop to', scrollTop)
 
-    if (this.refs.List) {
-      console.log(this.refs.List)
+    if (this.refs.List) { // render is called when the screen resolution/orientation changes and the Fullscreen component is activated
+      // console.log(this.refs.List)
       this
         .refs
         .List
@@ -134,7 +134,7 @@ export default class extends Component {
           width={ScreenSize().width}
           height={ScreenSize().height}
           rowHeight={this._getRowHeight}
-          overscanRowCount={5}
+          overscanRowCount={4}
           rowCount={rowCount}
           rowRenderer={this._rowRenderer}
           scrollTop={scrollTop}
