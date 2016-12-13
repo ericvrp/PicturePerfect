@@ -16,3 +16,5 @@ npm-debug.log
 settings.json
 settings.js
 firebase-debug.log
+cache
+public/images

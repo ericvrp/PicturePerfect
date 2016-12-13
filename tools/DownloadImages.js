@@ -25,7 +25,7 @@ for (const album of albums) {
         nGoodImages++
 
         sharp(bodyBuffer)
-          .toFile('public/images/org/' + md5(link) + '.jpg')
+          .toFile('cache/images/' + md5(link) + '.jpg')
 
         for (const output of [[128, 30], [256, 42], [512, 50], [1024, 65]]) {
           const [maxSize, quality] = output

@@ -21,7 +21,7 @@ export default class extends Component {
 
           firebase
             .database()
-            .ref('users')
+            .ref('user')
             .child(uid)
             .child('mySecretValue')
             .on('value', snap => {
@@ -82,7 +82,7 @@ export default class extends Component {
 
     firebase
       .database()
-      .ref('users')
+      .ref('user')
       .child(uid)
       .child('mySecretValue')
       .set(value)
